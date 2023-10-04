@@ -1,0 +1,8 @@
+<uses-permission android:name="android.permission.RECORD_AUDIO" /> goes in android manifest.xml
+
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->  goes in on create in Main_Activity
+            if (!granted) {
+                toast("Audio access denied")
+                finish()
+            }
+        }.launch(Manifest.permission.RECORD_AUDIO)
