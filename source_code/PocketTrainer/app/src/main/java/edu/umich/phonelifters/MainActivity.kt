@@ -3,6 +3,7 @@ package edu.umich.phonelifters
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -11,10 +12,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import edu.umich.phonelifters.ui.theme.PocketTrainerTheme
+import edu.umich.phonelifters.toast
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
         setContent {
             PocketTrainerTheme {
                 // A surface container using the 'background' color from the theme
@@ -26,6 +29,15 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        */
+
+
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            if (!granted) {
+                toast("Camera access denied") // Updated toast message
+                finish()
+            }
+        }.launch(android.Manifest.permission.CAMERA) // Request CAMERA permission instead of RECORD_AUDIO #OUR CODE
     }
 }
 
@@ -44,3 +56,8 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+/*
+sources:
+*https://stackoverflow.com/a/37834539
+ */
