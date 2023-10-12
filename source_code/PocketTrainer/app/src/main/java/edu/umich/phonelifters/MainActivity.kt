@@ -12,10 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import edu.umich.phonelifters.ui.theme.PocketTrainerTheme
+//import com.google.ar.core
 import edu.umich.phonelifters.toast
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    /*override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         /*
         setContent {
@@ -31,13 +32,18 @@ class MainActivity : ComponentActivity() {
         }
         */
 
-
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             if (!granted) {
                 toast("Camera access denied") // Updated toast message
                 finish()
             }
         }.launch(android.Manifest.permission.CAMERA) // Request CAMERA permission instead of RECORD_AUDIO #OUR CODE
+    }*/
+    override fun onCreate() {
+        // Request the camera permission, if necessary.
+        if (!CameraPermissionHelper.hasCameraPermission(this)) {
+            CameraPermissionHelper.requestCameraPermission(this)
+        }
     }
 }
 

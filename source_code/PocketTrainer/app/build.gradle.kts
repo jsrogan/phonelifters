@@ -47,11 +47,13 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
 }
 
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
+    implementation("com.google.ar:core:1.33.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.7.2")
     implementation(platform("androidx.compose:compose-bom:2023.06.01")) // 2023.06.01 max for API 33
@@ -65,7 +67,12 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.6.0") // 2.6.0 max for API 33
     implementation("com.android.volley:volley:1.2.1")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.0")
+    implementation("com.google.ar:core:1.39.0")
+    implementation("com.google.ar.sceneform.ux:sceneform-ux:1.9.0")
+    //implementation files("/home/alex/Desktop/phonelifters/source_code/PocketTrainer/app/src/main/java/edu/umich/phonelifters/arcore-android-sdk")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     testImplementation("junit:junit:4.13.2")
+
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
