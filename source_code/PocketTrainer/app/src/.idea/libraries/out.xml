@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="out">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/project_dex_archive/debug/out/e0b0ab45e81fc652d6e0e73f0ef2b7aca70ef8eee986acd50e44c5fb3ee58f8f_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/project_dex_archive/debug/out/e0b0ab45e81fc652d6e0e73f0ef2b7aca70ef8eee986acd50e44c5fb3ee58f8f_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/project_dex_archive/debug/out/e0b0ab45e81fc652d6e0e73f0ef2b7aca70ef8eee986acd50e44c5fb3ee58f8f_0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/project_dex_archive/debug/out/e0b0ab45e81fc652d6e0e73f0ef2b7aca70ef8eee986acd50e44c5fb3ee58f8f_3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

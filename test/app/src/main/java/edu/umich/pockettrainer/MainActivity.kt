@@ -35,6 +35,7 @@ import io.github.sceneview.ar.node.PlacementMode
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
         setContent {
             PocketTrainerTheme {
                 // A surface container using the 'background' color from the theme
@@ -46,6 +47,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+         */
     }
 }
 /*
@@ -73,7 +75,7 @@ fun Exercises(modifier: Modifier, onClick: (Int) -> Unit)
     Row(modifier = modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceAround)
     {
-        IconButton(onClick = ({/*do later*/})) //Try It Myself button
+        //IconButton(onClick = ({/*do later*/})) //Try It Myself button
     }
 }
 

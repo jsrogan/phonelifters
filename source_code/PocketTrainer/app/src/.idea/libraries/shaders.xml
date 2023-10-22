@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="shaders">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/plane.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/point_cloud.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/background_show_camera.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/cubemap_filter.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/plane.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/cubemap_filter.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/background_show_camera.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/point_cloud.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/ar_unlit_object.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/environmental_hdr.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/ar_unlit_object.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/occlusion.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/environmental_hdr.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/background_show_depth_color_visualization.vert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/occlusion.frag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compressed_assets/debug/out/assets/shaders/background_show_depth_color_visualization.frag.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
