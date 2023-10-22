@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xperiencelabs.armenu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml
+10
+11    <!-- Always needed for AR. -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:8:5-65
+12-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:8:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Needed to load gltf from network. -->
+13-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:5-71
+13-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:22-68
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- SceneView requires OpenGLES 3.0 or later for 3D rendering. -->
+14-->[io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:8:5-67
+14-->[io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:8:22-64
+15    <uses-feature
+15-->[io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:11:5-13:35
+16        android:glEsVersion="0x00030000"
+16-->[io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:12:9-41
+17        android:required="true" />
+17-->[io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:13:9-32
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+24
+25    <queries>
+25-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:20:5-22:15
+26        <package android:name="com.google.ar.core" />
+26-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:21:9-54
+26-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:21:18-51
+27    </queries>
+28
+29    <application
+29-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:5:5-25:19
+30        android:allowBackup="true"
+30-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:6:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:7:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:8:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:9:9-43
+37        android:label="@string/app_name"
+37-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:10:9-41
+38        android:supportsRtl="true"
+38-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:11:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.ARMenu" >
+40-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:12:9-44
+41        <activity
+41-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:14:9-24:20
+42            android:name="com.xperiencelabs.armenu.MainActivity"
+42-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:15:13-41
+43            android:exported="true"
+43-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:16:13-36
+44            android:label="@string/app_name"
+44-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:17:13-45
+45            android:theme="@style/Theme.ARMenu" >
+45-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:18:13-48
+46            <intent-filter>
+46-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:19:13-23:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:20:17-69
+47-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:20:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:22:17-77
+49-->/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/AndroidManifest.xml:22:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53        Indicates that this app requires Google Play Services for AR ("AR Required") and causes
+54        the Google Play Store to download and intall Google Play Services for AR along with the app.
+55        For an "AR Optional" app, specify "optional" instead of "required".
+56        -->
+57        <meta-data
+57-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:18:9-20:40
+58            android:name="com.google.ar.core"
+58-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:19:13-46
+59            android:value="optional" />
+59-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:20:13-37
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:25:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:26:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:24:9-26:39
+65            android:name="androidx.activity.ComponentActivity"
+65-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:25:13-63
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:26:13-36
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+70            android:authorities="com.xperiencelabs.armenu.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/drevsine/.gradle/caches/transforms-3/2b36f6b1d52766a719ed8784ec2637db/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/drevsine/.gradle/caches/transforms-3/2b36f6b1d52766a719ed8784ec2637db/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/drevsine/.gradle/caches/transforms-3/2b36f6b1d52766a719ed8784ec2637db/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+81        </provider> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+82        <meta-data
+82-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:27:9-29:41
+83            android:name="com.google.ar.core.min_apk_version"
+83-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:28:13-62
+84            android:value="230900000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+84-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:29:13-38
+85        <activity
+85-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:31:9-37:80
+86            android:name="com.google.ar.core.InstallActivity"
+86-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:32:13-62
+87            android:configChanges="keyboardHidden|orientation|screenSize"
+87-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:33:13-74
+88            android:excludeFromRecents="true"
+88-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:34:13-46
+89            android:exported="false"
+89-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:35:13-37
+90            android:launchMode="singleTop"
+90-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:36:13-43
+91            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+91-->[com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:37:13-77
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ca5613641b27a97bbc15f4cd2fccbe66/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>
