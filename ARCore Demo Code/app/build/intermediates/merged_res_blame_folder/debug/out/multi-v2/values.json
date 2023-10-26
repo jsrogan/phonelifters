@@ -21,59 +21,6 @@
                     }
                 },
                 {
-                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "316",
-                        "startColumns": "4",
-                        "startOffsets": "20529",
-                        "endColumns": "43",
-                        "endOffsets": "20568"
-                    }
-                },
-                {
-                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "22,63,64,65,76,77,80",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "1497,4253,4300,4347,5091,5136,5302",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "1534,4295,4342,4389,5131,5176,5339"
-                    }
-                },
-                {
-                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/exampleCode/AR-Menu-App---Android-Jetpack-Compose-/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "215"
-                    },
-                    "to": {
-                        "startLines": "1731",
-                        "startColumns": "4",
-                        "startOffsets": "114691",
-                        "endLines": "1733",
-                        "endColumns": "12",
-                        "endOffsets": "114850"
-                    }
-                },
-                {
                     "source": "/Users/drevsine/.gradle/caches/transforms-3/273f2adce6e0a906967c22fbd3af2cf7/transformed/lifecycle-runtime-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -105,6 +52,23 @@
                         "startOffsets": "21029",
                         "endColumns": "53",
                         "endOffsets": "21078"
+                    }
+                },
+                {
+                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "316",
+                        "startColumns": "4",
+                        "startOffsets": "20529",
+                        "endColumns": "43",
+                        "endOffsets": "20568"
                     }
                 },
                 {
@@ -288,6 +252,23 @@
                     }
                 },
                 {
+                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "22,63,64,65,76,77,80",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1497,4253,4300,4347,5091,5136,5302",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "1534,4295,4342,4389,5131,5176,5339"
+                    }
+                },
+                {
                     "source": "/Users/drevsine/.gradle/caches/transforms-3/6c5b45a1afb9ee442299e3e6253ec99b/transformed/lifecycle-viewmodel-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -302,6 +283,25 @@
                         "startOffsets": "17654",
                         "endColumns": "49",
                         "endOffsets": "17699"
+                    }
+                },
+                {
+                    "source": "/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "215"
+                    },
+                    "to": {
+                        "startLines": "1731",
+                        "startColumns": "4",
+                        "startOffsets": "114691",
+                        "endLines": "1733",
+                        "endColumns": "12",
+                        "endOffsets": "114850"
                     }
                 }
             ]

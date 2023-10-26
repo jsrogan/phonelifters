@@ -626,6 +626,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f070057
 int drawable btn_radio_on_mtrl 0x7f070058
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070059
 int drawable burger 0x7f07005a
+int drawable demo 0x7f070072
 int drawable ic_launcher_background 0x7f07005b
 int drawable ic_launcher_foreground 0x7f07005c
 int drawable instant 0x7f07005d

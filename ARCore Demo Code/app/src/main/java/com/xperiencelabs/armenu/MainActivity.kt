@@ -1,5 +1,6 @@
 package com.xperiencelabs.armenu
 
+import android.content.res.Resources
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -18,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import com.google.android.filament.utils.loadTexture
 import com.google.ar.core.Config
 import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
 import com.xperiencelabs.armenu.ui.theme.Translucent
@@ -38,7 +40,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                   Box(modifier = Modifier.fillMaxSize()){
                       val currentModel = remember {
-                          mutableStateOf("burger")
+                          mutableStateOf("LargerBicepCurl")
                       }
                       ARScreen(currentModel.value)
                       Menu(modifier = Modifier.align(Alignment.BottomCenter)){
@@ -60,12 +62,17 @@ fun Menu(modifier: Modifier,onClick:(String)->Unit) {
         mutableStateOf(0)
     }
 
-    val itemsList = listOf(
-        Food("burger",R.drawable.burger),
+    /*
+
+    Food("burger",R.drawable.burger),
         Food("instant",R.drawable.instant),
         Food("momos",R.drawable.momos),
         Food("pizza",R.drawable.pizza),
         Food("ramen",R.drawable.ramen),
+     */
+
+    val itemsList = listOf(
+        Models("demo", R.drawable.demo)
 
     )
     fun updateIndex(offset:Int){
@@ -129,7 +136,8 @@ fun ARScreen(model:String) {
                 modelNode.value = ArModelNode(arSceneView.engine,PlacementMode.INSTANT).apply {
                     loadModelGlbAsync(
                         glbFileLocation = "models/${model}.glb",
-                        scaleToUnits = 0.8f
+                        scaleToUnits = 50f,
+                        autoAnimate = true,
                     ){
 
                     }
@@ -147,6 +155,7 @@ fun ARScreen(model:String) {
                 planeRenderer.isVisible = false
             }
         )
+        /*
         if(placeModelButton.value){
             Button(onClick = {
                 modelNode.value?.anchor()
@@ -154,6 +163,7 @@ fun ARScreen(model:String) {
                 Text(text = "Place It")
             }
         }
+         */
     }
 
 
@@ -168,7 +178,7 @@ LaunchedEffect(key1 = model){
 }
 
 
-data class Food(var name:String,var imageId:Int)
+data class Models(var name:String,var imageId:Int)
 
 /*
 sources: https://github.com/princeku07/AR-Menu-App---Android-Jetpack-Compose-/tree/main,
