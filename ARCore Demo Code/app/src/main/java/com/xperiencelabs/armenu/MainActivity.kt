@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                   Box(modifier = Modifier.fillMaxSize()){
                       val currentModel = remember {
-                          mutableStateOf("LargerBicepCurl")
+                          mutableStateOf("bigtest")
                       }
                       ARScreen(currentModel.value)
                       Menu(modifier = Modifier.align(Alignment.BottomCenter)){
@@ -136,7 +136,7 @@ fun ARScreen(model:String) {
                 modelNode.value = ArModelNode(arSceneView.engine,PlacementMode.INSTANT).apply {
                     loadModelGlbAsync(
                         glbFileLocation = "models/${model}.glb",
-                        scaleToUnits = 50f,
+                        scaleToUnits = 0.8f,
                         autoAnimate = true,
                     ){
 
@@ -182,7 +182,14 @@ data class Models(var name:String,var imageId:Int)
 
 /*
 sources: https://github.com/princeku07/AR-Menu-App---Android-Jetpack-Compose-/tree/main,
-https://github.com/SceneView/sceneview-android/tree/main
+https://github.com/SceneView/sceneview-android/tree/main,
+https://www.mixamo.com/#/?page=1&query=bicep+curl,
+https://products.aspose.app/3d/conversion/dae-to-glb,
+https://github.com/SceneView/sceneform-android/blob/master/samples/ar-model-viewer/build.gradle,
+https://blender.stackexchange.com/questions/68001/working-with-very-large-objects,
+https://github.com/SceneView/sceneview-android,
+https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/scale.html,
+https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf
  */
 
 
