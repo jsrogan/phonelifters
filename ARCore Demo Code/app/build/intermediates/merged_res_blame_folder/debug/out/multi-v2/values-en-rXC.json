@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-50:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-65:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/res/values-en-rXC/values-en-rXC.xml",

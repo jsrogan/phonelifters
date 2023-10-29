@@ -20,6 +20,8 @@ drawable ramen
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string bicep_curl
+string exercise_select
 style Theme.ARMenu
 xml backup_rules
 xml data_extraction_rules

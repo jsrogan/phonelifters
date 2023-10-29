@@ -19,10 +19,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
 import com.google.ar.core.Config
 import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
 import com.xperiencelabs.armenu.ui.theme.Translucent
+import dev.romainguy.kotlin.math.Quaternion
 import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
@@ -32,6 +35,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
             ARMenuTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -138,6 +142,8 @@ fun ARScreen(model:String) {
                         glbFileLocation = "models/${model}.glb",
                         scaleToUnits = 0.8f,
                         autoAnimate = true,
+                        //CHECK
+                        //Rotation needs to be purposeful, not random, research anchor
                     ){
 
                     }
@@ -155,15 +161,17 @@ fun ARScreen(model:String) {
                 planeRenderer.isVisible = false
             }
         )
+
         /*
         if(placeModelButton.value){
             Button(onClick = {
                 modelNode.value?.anchor()
             }, modifier = Modifier.align(Alignment.Center)) {
-                Text(text = "Place It")
+                Text(text = "Anchor")
             }
         }
-         */
+        */
+
     }
 
 
@@ -189,7 +197,8 @@ https://github.com/SceneView/sceneform-android/blob/master/samples/ar-model-view
 https://blender.stackexchange.com/questions/68001/working-with-very-large-objects,
 https://github.com/SceneView/sceneview-android,
 https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/scale.html,
-https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf
+https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf,
+https://stackoverflow.com/a/54469912
  */
 
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-50:/values-v21/values-v21.xml",
+            "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-65:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/res/values-v21/values-v21.xml",
