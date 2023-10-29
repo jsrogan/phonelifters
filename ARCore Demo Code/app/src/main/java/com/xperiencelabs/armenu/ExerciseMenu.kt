@@ -7,10 +7,16 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.FloatingActionButton
+import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -74,8 +80,14 @@ class ExerciseMenu
             Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                 for (exercise: Exercise in exerciseList)
                 {
+                    exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
+
                     IconButton(onClick = { navController.navigate("MainActivity") }) {
-                        exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
+                        Icon(imageVector = ImageVector.vectorResource(R.drawable.start_exercise_button),
+                            contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                            modifier = Modifier.scale(1.4f),
+                            //tint = Color.Green
+                        )
                     }
 
                 }
