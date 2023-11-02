@@ -43,6 +43,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
@@ -70,7 +71,8 @@ dependencies {
     // If you want to use the accurate sdk
     implementation("com.google.mlkit:pose-detection-accurate:18.0.0-beta3")
 //    implementation("androidx.camera:camera-core:1.3.0")
-    val camerax_version = "1.4.0-alpha02"
+    val camerax_version = "1.2.0-alpha01"
+    //val camerax_version = "1.2.2"
     implementation("androidx.camera:camera-camera2:${camerax_version}")
     implementation("androidx.camera:camera-mlkit-vision:${camerax_version}")
     testImplementation("junit:junit:4.13.2")

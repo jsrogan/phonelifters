@@ -1,9 +1,11 @@
 package edu.umich.alexdean.posetest
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.SurfaceTexture
 import android.hardware.camera2.CameraCaptureSession
 import android.hardware.camera2.CameraDevice
 import android.hardware.camera2.CameraManager
@@ -20,6 +22,7 @@ import android.hardware.camera2.CaptureRequest
 import android.os.Handler
 import android.os.HandlerThread
 import android.os.Parcel
+import android.widget.ImageView
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -27,6 +30,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.app.ActivityCompat.requestPermissions
+import androidx.viewbinding.ViewBinding
 import com.google.android.gms.tasks.Task
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.pose.Pose
@@ -38,16 +43,30 @@ import com.google.mlkit.vision.pose.defaults.PoseDetectorOptions
 import edu.umich.alexdean.posetest.ui.theme.PoseTestTheme
 
 class MainActivity : ComponentActivity() {
-    lateinit var cameraManager: CameraManager
+    lateinit var cameraManager : CameraManager
     lateinit var textureView: TextureView
     lateinit var handler: Handler
     lateinit var handlerThread: HandlerThread
     lateinit var imageAnalyzer: YourImageAnalyzer
+    lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
         get_permissions()
+        var view = ActivityPostBinding.inflate(layoutInflater)
+        //model = LiteModelMovenetSingleposeLightningTfliteFloat164.newInstance(this)
+        imageView = ViewBinding(R.id.imageView)
+        textureView = findViewById(R.id.textureView)
+        cameraManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+        handlerThread = HandlerThread("videoThread")
+        handlerThread.start()
+        handler = Handler(handlerThread.looper)
+        //textureView = new TextureView(this);
+        //TextureView.setSurfaceTextureListener(this);
+
+        //setContentView(textureView);
+        open_camera()
 
     }
 
@@ -138,3 +157,14 @@ class YourImageAnalyzer {
         return PoseDetection.getClient(option)
     }
 }
+
+/*
+sources: https://stackoverflow.com/a/65861650,
+https://developer.android.com/reference/android/hardware/camera2/CameraDevice#createCaptureSession(android.hardware.camera2.params.SessionConfiguration),
+https://stackoverflow.com/a/73561645,
+https://developer.android.com/reference/kotlin/android/hardware/camera2/CameraDevice,
+https://github.com/Pawandeep-prog/realtime_pose_detection_android/blob/main/app/src/main/java/com/programminghut/pose_detection/MainActivity.kt,
+https://github.com/Pawandeep-prog/realtime_pose_detection_android/blob/main/app/src/main/res/layout/activity_main.xml,
+https://developer.android.com/reference/kotlin/android/view/TextureView,
+https://stackoverflow.com/questions/57182703/uninitializedpropertyaccessexception-lateinit-property-has-not-been-initialized
+ */
