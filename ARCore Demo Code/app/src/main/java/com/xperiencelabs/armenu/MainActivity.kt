@@ -1,36 +1,27 @@
 package com.xperiencelabs.armenu
 
-import android.content.res.Resources
+
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.unit.dp
-import androidx.navigation.compose.NavHost
+import com.xperiencelabs.armenu.ExerciseMenu
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.google.android.filament.utils.loadTexture
-import com.google.ar.core.Config
-import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
-import com.xperiencelabs.armenu.ui.theme.Translucent
-import dev.romainguy.kotlin.math.Quaternion
-import io.github.sceneview.ar.ARScene
-import io.github.sceneview.ar.node.ArModelNode
-import io.github.sceneview.ar.node.ArNode
-import io.github.sceneview.ar.node.PlacementMode
 
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+            val navController = rememberNavController()
+            val exercise = Exercise("arm curl", "bigtest.glb")
+            val exerciseMenu = ExerciseMenu(exercise)
+            exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
+        }
+    }
+}
+
+/*
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -187,6 +178,7 @@ LaunchedEffect(key1 = model){
 
 
 data class Models(var name:String,var imageId:Int)
+*/
 
 /*
 sources: https://github.com/princeku07/AR-Menu-App---Android-Jetpack-Compose-/tree/main,

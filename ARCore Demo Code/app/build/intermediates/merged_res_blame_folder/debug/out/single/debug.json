@@ -68,12 +68,16 @@
         "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_pizza.webp.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/pizza.webp"
+    },
+    {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/xml_backup_rules.xml.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_pizza.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/pizza.webp"
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_start_exercise_button.xml.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/start_exercise_button.xml"
     },
     {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_baseline_arrow_back_ios_24.xml.flat",

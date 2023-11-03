@@ -55,9 +55,9 @@ class Exercise(name: String, model: String)
      */
 }
 
-class ExerciseMenu
+class ExerciseMenu(e: Exercise)
 {
-    var exercises = arrayOf(Exercise("", ""))
+    var exercises = arrayOf(e)
 
     /*
     fun getExercise(name: String) : Exercise?
@@ -82,7 +82,7 @@ class ExerciseMenu
                 {
                     exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
 
-                    IconButton(onClick = { navController.navigate("MainActivity") }) {
+                    IconButton(onClick = { navController.navigate("DisplayExercise") }) {
                         Icon(imageVector = ImageVector.vectorResource(R.drawable.start_exercise_button),
                             contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
                             modifier = Modifier.scale(1.4f),

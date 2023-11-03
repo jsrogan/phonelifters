@@ -17,6 +17,7 @@ drawable instant
 drawable momos
 drawable pizza
 drawable ramen
+drawable start_exercise_button
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
