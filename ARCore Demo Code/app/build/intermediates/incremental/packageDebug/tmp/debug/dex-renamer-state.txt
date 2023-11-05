@@ -1,4 +1,4 @@
-#Fri Nov 03 13:00:35 EDT 2023
+#Sun Nov 05 17:31:27 EST 2023
 base.0=/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex

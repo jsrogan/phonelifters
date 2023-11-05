@@ -11,6 +11,7 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
@@ -24,6 +25,9 @@ import com.google.ar.core.dependencies.i
 import com.xperiencelabs.armenu.ui.theme.Gray88
 import com.xperiencelabs.armenu.ui.theme.HeavenWhite
 import androidx.navigation.NavHostController
+import com.xperiencelabs.armenu.ui.theme.Purple200
+import com.xperiencelabs.armenu.ui.theme.arsenic
+import com.xperiencelabs.armenu.ui.theme.lightBlue
 
 class Exercise(name: String, model: String)
 {
@@ -77,6 +81,10 @@ class ExerciseMenu(e: Exercise)
         Column(modifier = Modifier
             .padding(8.dp, 0.dp, 8.dp, 0.dp)
             .background(color = if (index % 2 == 0) Gray88 else HeavenWhite)) {
+            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f).background(color = lightBlue)) {
+                Text("Pick an Exercise", color = arsenic, fontSize = 30.sp, textAlign = TextAlign.Center)
+            }
+
             Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                 for (exercise: Exercise in exerciseList)
                 {
@@ -91,12 +99,16 @@ class ExerciseMenu(e: Exercise)
                     }
 
                 }
-
-
             }
         }
     }
 
+}
+
+@Composable
+fun MainView(exerciseMenu: ExerciseMenu, list: Array<Exercise>, navController: NavHostController)
+{
+    exerciseMenu.ShowExercises(index = 0, exerciseList = list, navController = navController)
 }
 
 /*

@@ -19,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
@@ -187,3 +188,9 @@ fun ARScreen(model:String) {
 
 
 data class Models(var name:String,var imageId:Int)
+
+/*
+sources: https://developer.android.com/reference/android/app/Activity#onCreate(android.os.Bundle),
+https://stackoverflow.com/a/53333237,
+https://stackoverflow.com/a/54018893
+ */

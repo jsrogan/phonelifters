@@ -4,8 +4,11 @@ package com.xperiencelabs.armenu
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.runtime.Composable
+import androidx.navigation.compose.NavHost
 import com.xperiencelabs.armenu.ExerciseMenu
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
 class MainActivity : ComponentActivity() {
@@ -13,10 +16,20 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            val navController = rememberNavController()
-            val exercise = Exercise("arm curl", "bigtest.glb")
+            val exercise = Exercise("Arm Curl", "bigtest.glb")
             val exerciseMenu = ExerciseMenu(exercise)
-            exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
+            val navController = rememberNavController()
+            NavHost(navController, startDestination = "ExerciseMenu") {
+                composable("ExerciseMenu") {
+                    MainView(exerciseMenu, exerciseMenu.exercises, navController = navController)
+                    //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
+                }
+
+                composable("DisplayExercise")
+                {
+                    ARScreen(model = "bigtest")
+                }
+            }
         }
     }
 }
