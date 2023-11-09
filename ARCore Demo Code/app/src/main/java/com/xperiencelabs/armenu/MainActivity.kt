@@ -29,6 +29,10 @@ class MainActivity : ComponentActivity() {
                 {
                     ARScreen(model = "bigtest")
                 }
+
+                composable("PoseView"){
+                    PoseView()
+                }
             }
         }
     }
