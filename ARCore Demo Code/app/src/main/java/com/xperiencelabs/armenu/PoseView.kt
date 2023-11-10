@@ -1,109 +1,151 @@
 //package de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture needed?
+package com.xperiencelabs.armenu
 
+import android.annotation.SuppressLint
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.Color
+import android.content.pm.PackageManager
+import android.graphics.*
+import android.hardware.camera2.CameraCaptureSession
+import android.hardware.camera2.CameraDevice
+import android.hardware.camera2.CameraManager
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.os.Handler
+import android.os.HandlerThread
 import android.util.Log
-import android.view.ViewGroup.LayoutParams.MATCH_PARENT
-import android.widget.LinearLayout
-import androidx.camera.core.ImageCapture
-import androidx.camera.core.ImageCaptureException
-import androidx.camera.core.ImageProxy
-import androidx.camera.view.LifecycleCameraController
-import androidx.camera.view.PreviewView
+import android.view.Surface
+import android.view.TextureView
+import android.widget.ImageView
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.material.Card
-import androidx.compose.material.ExtendedFloatingActionButton
-import androidx.compose.material.Icon
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Camera
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
-import androidx.compose.ui.Alignment.Companion.BottomStart
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.ImageBitmap
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalLifecycleOwner
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.viewinterop.AndroidView
-import androidx.core.content.ContextCompat
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import de.yanneckreiss.cameraxtutorial.core.utils.rotateBitmap
-import org.koin.androidx.compose.koinViewModel
-import java.util.concurrent.Executor
+import com.xperiencelabs.armenu.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
+import org.tensorflow.lite.DataType
+import org.tensorflow.lite.support.image.ImageProcessor
+import org.tensorflow.lite.support.image.TensorImage
+import org.tensorflow.lite.support.image.ops.ResizeOp
+import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
+//import com.xperiencelabs.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
+class PoseView : AppCompatActivity() {
 
-@Composable
-fun PoseView(){
-    viewModel: CameraViewModel = koinViewModel()
-    ) {
-        val cameraState: CameraState by viewModel.state.collectAsStateWithLifecycle()
+    val paint = Paint()
+    lateinit var imageProcessor: ImageProcessor
+    lateinit var model: LiteModelMovenetSingleposeLightningTfliteFloat164
+    lateinit var bitmap: Bitmap
+    lateinit var imageView: ImageView
+    lateinit var handler:Handler
+    lateinit var handlerThread: HandlerThread
+    lateinit var textureView: TextureView
+    lateinit var cameraManager: CameraManager
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main) //put Compose here
+        get_permissions()
 
-        CameraContent(
-            onPhotoCaptured = viewModel::storePhotoInGallery, //instead send to image analyzer
-            lastCapturedPhoto = cameraState.capturedImage
-        )
+        imageProcessor = ImageProcessor.Builder().add(ResizeOp(192, 192, ResizeOp.ResizeMethod.BILINEAR)).build()
+        model = LiteModelMovenetSingleposeLightningTfliteFloat164
+        //imageView = findViewById(R.id.imageView) //separate composable, replace with Image or AsyncImage
+        imageView = Image()
+        textureView = findViewById(R.id.textureView) //separate composable, need SurfaceTexture to put in an AndroidView
+        cameraManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+        handlerThread = HandlerThread("videoThread")
+        handlerThread.start()
+        handler = Handler(handlerThread.looper)
 
+        paint.setColor(Color.YELLOW)
 
+        textureView.surfaceTextureListener = object:TextureView.SurfaceTextureListener{
+            override fun onSurfaceTextureAvailable(p0: SurfaceTexture, p1: Int, p2: Int) {
+                open_camera()
+            }
 
-    /*
-    val cameraPermissionState: PermissionState = rememberPermissionState(android.Manifest.permission.CAMERA)
+            override fun onSurfaceTextureSizeChanged(p0: SurfaceTexture, p1: Int, p2: Int) {
 
-    MainContent(
-        hasPermission = cameraPermissionState.status.isGranted,
-        onRequestPermission = cameraPermissionState::launchPermissionRequest
-    ) //from tutorial, but is this call necessary? feel as if it should just navigate to PoseView if we have permission
-     //commented out because PoseView is never called without camera permission, happens upon boot up of the app
-     */
+            }
+
+            override fun onSurfaceTextureDestroyed(p0: SurfaceTexture): Boolean {
+                return false
+            }
+
+            override fun onSurfaceTextureUpdated(p0: SurfaceTexture) {
+                bitmap = textureView.bitmap!!
+                var tensorImage = TensorImage(DataType.UINT8)
+                tensorImage.load(bitmap)
+                tensorImage = imageProcessor.process(tensorImage)
+
+                val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 192, 192, 3), DataType.UINT8)
+                inputFeature0.loadBuffer(tensorImage.buffer)
+
+                val outputs = model.process(inputFeature0)
+                val outputFeature0 = outputs.outputFeature0AsTensorBuffer.floatArray
+
+                var mutable = bitmap.copy(Bitmap.Config.ARGB_8888, true)
+                var canvas = Canvas(mutable)
+                var h = bitmap.height
+                var w = bitmap.width
+                var x = 0
+
+                Log.d("output__", outputFeature0.size.toString())
+                while(x <= 49){
+                    if(outputFeature0.get(x+2) > 0.45){
+                        canvas.drawCircle(outputFeature0.get(x+1)*w, outputFeature0.get(x)*h, 10f, paint)
+                    }
+                    x+=3
+                }
+
+                imageView.bitmap = bitmap setImageBitmap(mutable)
+            }
+        }
+
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        model.close()
+    }
+
+    @SuppressLint("MissingPermission")
+    fun open_camera(){
+        cameraManager.openCamera(cameraManager.cameraIdList[0], object:CameraDevice.StateCallback(){
+            override fun onOpened(p0: CameraDevice) {
+                var captureRequest = p0.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
+                var surface = Surface(textureView.surfaceTexture)
+                captureRequest.addTarget(surface)
+                p0.createCaptureSession(listOf(surface), object:CameraCaptureSession.StateCallback(){
+                    override fun onConfigured(p0: CameraCaptureSession) {
+                        p0.setRepeatingRequest(captureRequest.build(), null, null)
+                    }
+                    override fun onConfigureFailed(p0: CameraCaptureSession) {
+
+                    }
+                }, handler)
+            }
+
+            override fun onDisconnected(p0: CameraDevice) {
+
+            }
+
+            override fun onError(p0: CameraDevice, p1: Int) {
+
+            }
+        }, handler)
+    }
+
+    fun get_permissions(){
+        if(checkSelfPermission(android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            requestPermissions(arrayOf(android.Manifest.permission.CAMERA), 101)
+        }
+    }
+    override fun onRequestPermissionsResult(  requestCode: Int, permissions: Array<out String>, grantResults: IntArray  ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if(grantResults[0] != PackageManager.PERMISSION_GRANTED) get_permissions()
     }
 }
-
-private fun capturePhoto(
-    context: Context,
-    cameraController: LifecycleCameraController,
-    onPhotoCaptured: (Bitmap) -> Unit
-) {
-    val mainExecutor: Executor = ContextCompat.getMainExecutor(context)
-
-    cameraController.takePicture(mainExecutor, object : ImageCapture.OnImageCapturedCallback() {
-        override fun onCaptureSuccess(image: ImageProxy) {
-            val correctedBitmap: Bitmap = image
-                .toBitmap()
-                .rotateBitmap(image.imageInfo.rotationDegrees)
-
-            onPhotoCaptured(correctedBitmap)
-            image.close()
-        }
-
-        override fun onError(exception: ImageCaptureException) {
-            Log.e("CameraContent", "Error capturing image", exception)
-        }
-    })
-} //can hopefully call this function in a loop in order to continously capture images for analysis
 
 /*
-@Composable
-private fun MainContent(
-    hasPermission: Boolean,
-    onRequestPermission: () -> Unit
-) {
-
-    if (hasPermission) {
-        CameraScreen()
-    } else {
-        NoPermissionScreen(onRequestPermission)
-    }
-}
+sources: https://www.youtube.com/watch?v=pPVZambOuG8,
+https://github.com/YanneckReiss/JetpackComposeCameraXShowcase/blob/master/app/src/main/kotlin/de/yanneckreiss/cameraxtutorial/MainActivity.kt,
+https://developer.android.com/codelabs/camerax-getting-started#1,
+https://github.com/Pawandeep-prog/realtime_pose_detection_android/tree/main,
+https://www.geeksforgeeks.org/imageview-in-android-using-jetpack-compose/,
+https://developer.android.com/training/sharing/send#:~:text=Android%20uses%20the%20action%20ACTION_SEND,displays%20them%20to%20the%20user.,
 
  */
