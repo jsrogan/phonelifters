@@ -53,11 +53,10 @@ class MainActivity : ComponentActivity() {
                     ARScreen(model = "bigtest", navController, context)
                 }
 
-                /*
+
                 composable("PoseView"){
-                    PoseActivity()
+                    PoseView(navController)
                 }
-                 */
             }
         }
     }

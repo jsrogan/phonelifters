@@ -1,82 +1,75 @@
 com.xperiencelabs.armenu.app-savedstate-ktx-1.2.1-0 /Users/drevsine/.gradle/caches/transforms-3/0ce74b002f359e0528521bad752891bb/transformed/savedstate-ktx-1.2.1/res
 com.xperiencelabs.armenu.app-activity-ktx-1.7.0-1 /Users/drevsine/.gradle/caches/transforms-3/0d95de2293ae981c077de20c740c9889/transformed/activity-ktx-1.7.0/res
-com.xperiencelabs.armenu.app-work-runtime-ktx-2.7.0-2 /Users/drevsine/.gradle/caches/transforms-3/14db8972dd25747ebf7aedd9ea45766b/transformed/work-runtime-ktx-2.7.0/res
-com.xperiencelabs.armenu.app-play-services-basement-18.1.0-3 /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/res
-com.xperiencelabs.armenu.app-work-multiprocess-2.7.0-4 /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/res
-com.xperiencelabs.armenu.app-viewpager2-1.0.0-5 /Users/drevsine/.gradle/caches/transforms-3/1697e53f7cc06e3894d7bc9807c06b29/transformed/viewpager2-1.0.0/res
-com.xperiencelabs.armenu.app-constraintlayout-2.1.4-6 /Users/drevsine/.gradle/caches/transforms-3/1784d8720734ab7ca7fb775a723083c7/transformed/constraintlayout-2.1.4/res
-com.xperiencelabs.armenu.app-lifecycle-service-2.6.1-7 /Users/drevsine/.gradle/caches/transforms-3/1b8167d12a200ef67b49ec4279df027b/transformed/lifecycle-service-2.6.1/res
-com.xperiencelabs.armenu.app-savedstate-1.2.1-8 /Users/drevsine/.gradle/caches/transforms-3/1f1ca91f831f8484b935157a92ab0f9c/transformed/savedstate-1.2.1/res
-com.xperiencelabs.armenu.app-foundation-1.3.1-9 /Users/drevsine/.gradle/caches/transforms-3/214cbadb9e5d426ed92b9b0f6cd70e12/transformed/foundation-1.3.1/res
-com.xperiencelabs.armenu.app-drawerlayout-1.1.1-10 /Users/drevsine/.gradle/caches/transforms-3/22645863bbdc2a8aa985e043d967db7e/transformed/drawerlayout-1.1.1/res
-com.xperiencelabs.armenu.app-emoji2-views-helper-1.2.0-11 /Users/drevsine/.gradle/caches/transforms-3/2d2cb7a64ffeec56789f98c9eaa35c00/transformed/emoji2-views-helper-1.2.0/res
-com.xperiencelabs.armenu.app-ui-graphics-1.3.3-12 /Users/drevsine/.gradle/caches/transforms-3/2f425488b120a4b818424bf780cd0f14/transformed/ui-graphics-1.3.3/res
-com.xperiencelabs.armenu.app-work-runtime-2.7.0-13 /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/res
-com.xperiencelabs.armenu.app-core-1.37.0-14 /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/res
-com.xperiencelabs.armenu.app-navigation-runtime-ktx-2.6.0-15 /Users/drevsine/.gradle/caches/transforms-3/3b697b4db22b373370f4d58cdec141f2/transformed/navigation-runtime-ktx-2.6.0/res
-com.xperiencelabs.armenu.app-material-1.2.0-16 /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/res
-com.xperiencelabs.armenu.app-activity-1.7.0-17 /Users/drevsine/.gradle/caches/transforms-3/40260dc799e3d03d4ed97b9dfdf75c6d/transformed/activity-1.7.0/res
-com.xperiencelabs.armenu.app-material-ripple-1.2.0-18 /Users/drevsine/.gradle/caches/transforms-3/40aa8f44850f119073c32f7a5ed50e57/transformed/material-ripple-1.2.0/res
-com.xperiencelabs.armenu.app-core-runtime-2.2.0-19 /Users/drevsine/.gradle/caches/transforms-3/42d42e9fdc10b3a8efed0d75b71fafe6/transformed/core-runtime-2.2.0/res
-com.xperiencelabs.armenu.app-camera-view-1.2.2-20 /Users/drevsine/.gradle/caches/transforms-3/48a7460404d1183b8c2168ecee21d4ce/transformed/camera-view-1.2.2/res
-com.xperiencelabs.armenu.app-lifecycle-livedata-2.6.1-21 /Users/drevsine/.gradle/caches/transforms-3/4cdb49b0d47ca31fbe8f7e71a27210c2/transformed/lifecycle-livedata-2.6.1/res
-com.xperiencelabs.armenu.app-lifecycle-viewmodel-savedstate-2.6.1-22 /Users/drevsine/.gradle/caches/transforms-3/4e84a2f6af8ba1dfb564537908d06ab4/transformed/lifecycle-viewmodel-savedstate-2.6.1/res
-com.xperiencelabs.armenu.app-ui-geometry-1.3.3-23 /Users/drevsine/.gradle/caches/transforms-3/55cf4222745454e35d761481380329b6/transformed/ui-geometry-1.3.3/res
-com.xperiencelabs.armenu.app-appcompat-1.5.1-24 /Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/res
-com.xperiencelabs.armenu.app-navigation-common-ktx-2.6.0-25 /Users/drevsine/.gradle/caches/transforms-3/5b448e7c7bf1f19b197e77355aa4ad1a/transformed/navigation-common-ktx-2.6.0/res
-com.xperiencelabs.armenu.app-profileinstaller-1.3.0-26 /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/res
-com.xperiencelabs.armenu.app-core-ktx-1.9.0-27 /Users/drevsine/.gradle/caches/transforms-3/5f3734dc42c8522e9fe4807b971b3889/transformed/core-ktx-1.9.0/res
-com.xperiencelabs.armenu.app-recyclerview-1.1.0-28 /Users/drevsine/.gradle/caches/transforms-3/68389348d3943a039b2a22e75d6dc42b/transformed/recyclerview-1.1.0/res
-com.xperiencelabs.armenu.app-lifecycle-viewmodel-2.6.1-29 /Users/drevsine/.gradle/caches/transforms-3/6e6fcd315d2914af4ad2cbb4faca5a8d/transformed/lifecycle-viewmodel-2.6.1/res
-com.xperiencelabs.armenu.app-lifecycle-process-2.6.1-30 /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/res
-com.xperiencelabs.armenu.app-transition-1.2.0-31 /Users/drevsine/.gradle/caches/transforms-3/7632eae8281301dfe881ac645ed5b016/transformed/transition-1.2.0/res
-com.xperiencelabs.armenu.app-arsceneview-0.10.0-32 /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/res
-com.xperiencelabs.armenu.app-animation-1.1.1-33 /Users/drevsine/.gradle/caches/transforms-3/7d35d551535bdbe4b2e1b063aee342e7/transformed/animation-1.1.1/res
-com.xperiencelabs.armenu.app-material-1.7.0-34 /Users/drevsine/.gradle/caches/transforms-3/84367839abb2103c62acb12236533d2f/transformed/material-1.7.0/res
-com.xperiencelabs.armenu.app-ui-1.3.3-35 /Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/res
-com.xperiencelabs.armenu.app-emoji2-1.2.0-36 /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/res
-com.xperiencelabs.armenu.app-activity-compose-1.7.0-37 /Users/drevsine/.gradle/caches/transforms-3/8a80cfd1f569eed1bfdf1b1d4a3b572f/transformed/activity-compose-1.7.0/res
-com.xperiencelabs.armenu.app-navigation-runtime-2.6.0-38 /Users/drevsine/.gradle/caches/transforms-3/8d08f2c591488087b78602775fa08d5a/transformed/navigation-runtime-2.6.0/res
-com.xperiencelabs.armenu.app-lifecycle-runtime-ktx-2.6.1-39 /Users/drevsine/.gradle/caches/transforms-3/8d27d1f18bd7b01f7f97ff893118390e/transformed/lifecycle-runtime-ktx-2.6.1/res
-com.xperiencelabs.armenu.app-navigation-common-2.6.0-40 /Users/drevsine/.gradle/caches/transforms-3/95bdba9c918a04e4e525370868c15b48/transformed/navigation-common-2.6.0/res
-com.xperiencelabs.armenu.app-lifecycle-livedata-core-2.6.1-41 /Users/drevsine/.gradle/caches/transforms-3/98b62496db80c5f7334c63c8ef1594c6/transformed/lifecycle-livedata-core-2.6.1/res
-com.xperiencelabs.armenu.app-ui-unit-1.3.3-42 /Users/drevsine/.gradle/caches/transforms-3/9b996a5c214408015649416b6fb49fb1/transformed/ui-unit-1.3.3/res
-com.xperiencelabs.armenu.app-annotation-experimental-1.3.0-43 /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/res
-com.xperiencelabs.armenu.app-navigation-compose-2.6.0-44 /Users/drevsine/.gradle/caches/transforms-3/9f7f9b788fec15bb93507de51f131389/transformed/navigation-compose-2.6.0/res
-com.xperiencelabs.armenu.app-fragment-ktx-1.4.1-45 /Users/drevsine/.gradle/caches/transforms-3/a0b55528a2690468e947218eb0401b6f/transformed/fragment-ktx-1.4.1/res
-com.xperiencelabs.armenu.app-camera-lifecycle-1.2.2-46 /Users/drevsine/.gradle/caches/transforms-3/a97c24782b94db709d28390ea39aafdb/transformed/camera-lifecycle-1.2.2/res
-com.xperiencelabs.armenu.app-runtime-1.3.3-47 /Users/drevsine/.gradle/caches/transforms-3/a9c322a89f898c6ac92cbc4e804506e8/transformed/runtime-1.3.3/res
-com.xperiencelabs.armenu.app-fragment-1.4.1-48 /Users/drevsine/.gradle/caches/transforms-3/aacac6d32e1480a7714b7b074d68a733/transformed/fragment-1.4.1/res
-com.xperiencelabs.armenu.app-ui-tooling-preview-1.2.0-49 /Users/drevsine/.gradle/caches/transforms-3/ad4d6266d7fe72ce82cfe13e9951f3f1/transformed/ui-tooling-preview-1.2.0/res
-com.xperiencelabs.armenu.app-runtime-saveable-1.3.3-50 /Users/drevsine/.gradle/caches/transforms-3/ae22a8235ac8e14234098df979cffda4/transformed/runtime-saveable-1.3.3/res
-com.xperiencelabs.armenu.app-lifecycle-runtime-2.6.1-51 /Users/drevsine/.gradle/caches/transforms-3/b000c700754713dc8e2803f1edacb360/transformed/lifecycle-runtime-2.6.1/res
-com.xperiencelabs.armenu.app-ui-tooling-1.2.0-52 /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/res
-com.xperiencelabs.armenu.app-coordinatorlayout-1.1.0-53 /Users/drevsine/.gradle/caches/transforms-3/b0f6f3bf4ed4099b387a119d6361ee2c/transformed/coordinatorlayout-1.1.0/res
-com.xperiencelabs.armenu.app-ui-tooling-data-1.2.0-54 /Users/drevsine/.gradle/caches/transforms-3/b2b504a6c1f6b02cca9bea5855553309/transformed/ui-tooling-data-1.2.0/res
-com.xperiencelabs.armenu.app-camera-extensions-1.2.2-55 /Users/drevsine/.gradle/caches/transforms-3/b51214e7e63aba05a9f7060ecfe227fe/transformed/camera-extensions-1.2.2/res
-com.xperiencelabs.armenu.app-animation-core-1.1.1-56 /Users/drevsine/.gradle/caches/transforms-3/b5a3a0b46fd60052a620a06e7393cb4b/transformed/animation-core-1.1.1/res
-com.xperiencelabs.armenu.app-ui-util-1.3.3-57 /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/res
-com.xperiencelabs.armenu.app-ui-test-manifest-1.2.0-58 /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/res
-com.xperiencelabs.armenu.app-appcompat-resources-1.5.1-59 /Users/drevsine/.gradle/caches/transforms-3/c34d313ab1fb851af7eb0febb5eb4799/transformed/appcompat-resources-1.5.1/res
-com.xperiencelabs.armenu.app-material-icons-core-1.2.0-60 /Users/drevsine/.gradle/caches/transforms-3/c6e9e0680bfc219a67b0e1c282d79f9b/transformed/material-icons-core-1.2.0/res
-com.xperiencelabs.armenu.app-customview-poolingcontainer-1.0.0-61 /Users/drevsine/.gradle/caches/transforms-3/cae36f28be6fdfd398db5f5eb47c0c0c/transformed/customview-poolingcontainer-1.0.0/res
-com.xperiencelabs.armenu.app-lifecycle-viewmodel-compose-2.6.1-62 /Users/drevsine/.gradle/caches/transforms-3/cd8b0936d8f0052be86d8d6d5240f11d/transformed/lifecycle-viewmodel-compose-2.6.1/res
-com.xperiencelabs.armenu.app-play-services-base-18.1.0-63 /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/res
-com.xperiencelabs.armenu.app-camera-camera2-1.2.2-64 /Users/drevsine/.gradle/caches/transforms-3/d44eb6ed162386401f5865adc00edba5/transformed/camera-camera2-1.2.2/res
-com.xperiencelabs.armenu.app-foundation-layout-1.3.1-65 /Users/drevsine/.gradle/caches/transforms-3/d9a9ac31837b5780ce2f2bd104aa5f9b/transformed/foundation-layout-1.3.1/res
-com.xperiencelabs.armenu.app-cardview-1.0.0-66 /Users/drevsine/.gradle/caches/transforms-3/dcc90df5e29beb76e837b70cfc8a1b3a/transformed/cardview-1.0.0/res
-com.xperiencelabs.armenu.app-camera-core-1.2.2-67 /Users/drevsine/.gradle/caches/transforms-3/e225f4c8b6d3f8a067c8c5b70a8b74ee/transformed/camera-core-1.2.2/res
-com.xperiencelabs.armenu.app-sceneview-0.10.0-68 /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/res
-com.xperiencelabs.armenu.app-filament-android-1.36.0-69 /Users/drevsine/.gradle/caches/transforms-3/ebcff9c1a15b15720e40269a37923521/transformed/filament-android-1.36.0/res
-com.xperiencelabs.armenu.app-core-1.9.0-70 /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/res
-com.xperiencelabs.armenu.app-lifecycle-livedata-core-ktx-2.6.1-71 /Users/drevsine/.gradle/caches/transforms-3/f5ab28f044846af7e764f66b7ab93aba/transformed/lifecycle-livedata-core-ktx-2.6.1/res
-com.xperiencelabs.armenu.app-ui-text-1.3.3-72 /Users/drevsine/.gradle/caches/transforms-3/f8336d8697a85741743fe610d99565bd/transformed/ui-text-1.3.3/res
-com.xperiencelabs.armenu.app-lifecycle-viewmodel-ktx-2.6.1-73 /Users/drevsine/.gradle/caches/transforms-3/f89cbfe25634c4c6c486967d5478914b/transformed/lifecycle-viewmodel-ktx-2.6.1/res
-com.xperiencelabs.armenu.app-startup-runtime-1.1.1-74 /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/res
-com.xperiencelabs.armenu.app-resValues-75 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/generated/res/resValues/debug
-com.xperiencelabs.armenu.app-rs-76 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/generated/res/rs/debug
-com.xperiencelabs.armenu.app-packageDebugResources-77 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.xperiencelabs.armenu.app-packageDebugResources-78 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.xperiencelabs.armenu.app-merged_res-79 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/merged_res/debug
-com.xperiencelabs.armenu.app-debug-80 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/debug/res
-com.xperiencelabs.armenu.app-main-81 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res
+com.xperiencelabs.armenu.app-viewpager2-1.0.0-2 /Users/drevsine/.gradle/caches/transforms-3/1697e53f7cc06e3894d7bc9807c06b29/transformed/viewpager2-1.0.0/res
+com.xperiencelabs.armenu.app-constraintlayout-2.1.4-3 /Users/drevsine/.gradle/caches/transforms-3/1784d8720734ab7ca7fb775a723083c7/transformed/constraintlayout-2.1.4/res
+com.xperiencelabs.armenu.app-lifecycle-service-2.6.1-4 /Users/drevsine/.gradle/caches/transforms-3/1b8167d12a200ef67b49ec4279df027b/transformed/lifecycle-service-2.6.1/res
+com.xperiencelabs.armenu.app-savedstate-1.2.1-5 /Users/drevsine/.gradle/caches/transforms-3/1f1ca91f831f8484b935157a92ab0f9c/transformed/savedstate-1.2.1/res
+com.xperiencelabs.armenu.app-foundation-1.3.1-6 /Users/drevsine/.gradle/caches/transforms-3/214cbadb9e5d426ed92b9b0f6cd70e12/transformed/foundation-1.3.1/res
+com.xperiencelabs.armenu.app-drawerlayout-1.1.1-7 /Users/drevsine/.gradle/caches/transforms-3/22645863bbdc2a8aa985e043d967db7e/transformed/drawerlayout-1.1.1/res
+com.xperiencelabs.armenu.app-emoji2-views-helper-1.2.0-8 /Users/drevsine/.gradle/caches/transforms-3/2d2cb7a64ffeec56789f98c9eaa35c00/transformed/emoji2-views-helper-1.2.0/res
+com.xperiencelabs.armenu.app-ui-graphics-1.3.3-9 /Users/drevsine/.gradle/caches/transforms-3/2f425488b120a4b818424bf780cd0f14/transformed/ui-graphics-1.3.3/res
+com.xperiencelabs.armenu.app-media-1.0.0-10 /Users/drevsine/.gradle/caches/transforms-3/33fa3d2e9eceec71057c997fab8ce41e/transformed/media-1.0.0/res
+com.xperiencelabs.armenu.app-core-1.37.0-11 /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/res
+com.xperiencelabs.armenu.app-navigation-runtime-ktx-2.6.0-12 /Users/drevsine/.gradle/caches/transforms-3/3b697b4db22b373370f4d58cdec141f2/transformed/navigation-runtime-ktx-2.6.0/res
+com.xperiencelabs.armenu.app-material-1.2.0-13 /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/res
+com.xperiencelabs.armenu.app-activity-1.7.0-14 /Users/drevsine/.gradle/caches/transforms-3/40260dc799e3d03d4ed97b9dfdf75c6d/transformed/activity-1.7.0/res
+com.xperiencelabs.armenu.app-material-ripple-1.2.0-15 /Users/drevsine/.gradle/caches/transforms-3/40aa8f44850f119073c32f7a5ed50e57/transformed/material-ripple-1.2.0/res
+com.xperiencelabs.armenu.app-core-runtime-2.2.0-16 /Users/drevsine/.gradle/caches/transforms-3/42d42e9fdc10b3a8efed0d75b71fafe6/transformed/core-runtime-2.2.0/res
+com.xperiencelabs.armenu.app-camera-view-1.2.2-17 /Users/drevsine/.gradle/caches/transforms-3/48a7460404d1183b8c2168ecee21d4ce/transformed/camera-view-1.2.2/res
+com.xperiencelabs.armenu.app-lifecycle-livedata-2.6.1-18 /Users/drevsine/.gradle/caches/transforms-3/4cdb49b0d47ca31fbe8f7e71a27210c2/transformed/lifecycle-livedata-2.6.1/res
+com.xperiencelabs.armenu.app-lifecycle-viewmodel-savedstate-2.6.1-19 /Users/drevsine/.gradle/caches/transforms-3/4e84a2f6af8ba1dfb564537908d06ab4/transformed/lifecycle-viewmodel-savedstate-2.6.1/res
+com.xperiencelabs.armenu.app-ui-geometry-1.3.3-20 /Users/drevsine/.gradle/caches/transforms-3/55cf4222745454e35d761481380329b6/transformed/ui-geometry-1.3.3/res
+com.xperiencelabs.armenu.app-appcompat-1.5.1-21 /Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/res
+com.xperiencelabs.armenu.app-navigation-common-ktx-2.6.0-22 /Users/drevsine/.gradle/caches/transforms-3/5b448e7c7bf1f19b197e77355aa4ad1a/transformed/navigation-common-ktx-2.6.0/res
+com.xperiencelabs.armenu.app-profileinstaller-1.3.0-23 /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/res
+com.xperiencelabs.armenu.app-core-ktx-1.9.0-24 /Users/drevsine/.gradle/caches/transforms-3/5f3734dc42c8522e9fe4807b971b3889/transformed/core-ktx-1.9.0/res
+com.xperiencelabs.armenu.app-recyclerview-1.1.0-25 /Users/drevsine/.gradle/caches/transforms-3/68389348d3943a039b2a22e75d6dc42b/transformed/recyclerview-1.1.0/res
+com.xperiencelabs.armenu.app-lifecycle-viewmodel-2.6.1-26 /Users/drevsine/.gradle/caches/transforms-3/6e6fcd315d2914af4ad2cbb4faca5a8d/transformed/lifecycle-viewmodel-2.6.1/res
+com.xperiencelabs.armenu.app-lifecycle-process-2.6.1-27 /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/res
+com.xperiencelabs.armenu.app-transition-1.2.0-28 /Users/drevsine/.gradle/caches/transforms-3/7632eae8281301dfe881ac645ed5b016/transformed/transition-1.2.0/res
+com.xperiencelabs.armenu.app-arsceneview-0.10.0-29 /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/res
+com.xperiencelabs.armenu.app-animation-1.1.1-30 /Users/drevsine/.gradle/caches/transforms-3/7d35d551535bdbe4b2e1b063aee342e7/transformed/animation-1.1.1/res
+com.xperiencelabs.armenu.app-material-1.7.0-31 /Users/drevsine/.gradle/caches/transforms-3/84367839abb2103c62acb12236533d2f/transformed/material-1.7.0/res
+com.xperiencelabs.armenu.app-ui-1.3.3-32 /Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/res
+com.xperiencelabs.armenu.app-emoji2-1.2.0-33 /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/res
+com.xperiencelabs.armenu.app-activity-compose-1.7.0-34 /Users/drevsine/.gradle/caches/transforms-3/8a80cfd1f569eed1bfdf1b1d4a3b572f/transformed/activity-compose-1.7.0/res
+com.xperiencelabs.armenu.app-navigation-runtime-2.6.0-35 /Users/drevsine/.gradle/caches/transforms-3/8d08f2c591488087b78602775fa08d5a/transformed/navigation-runtime-2.6.0/res
+com.xperiencelabs.armenu.app-lifecycle-runtime-ktx-2.6.1-36 /Users/drevsine/.gradle/caches/transforms-3/8d27d1f18bd7b01f7f97ff893118390e/transformed/lifecycle-runtime-ktx-2.6.1/res
+com.xperiencelabs.armenu.app-navigation-common-2.6.0-37 /Users/drevsine/.gradle/caches/transforms-3/95bdba9c918a04e4e525370868c15b48/transformed/navigation-common-2.6.0/res
+com.xperiencelabs.armenu.app-lifecycle-livedata-core-2.6.1-38 /Users/drevsine/.gradle/caches/transforms-3/98b62496db80c5f7334c63c8ef1594c6/transformed/lifecycle-livedata-core-2.6.1/res
+com.xperiencelabs.armenu.app-ui-unit-1.3.3-39 /Users/drevsine/.gradle/caches/transforms-3/9b996a5c214408015649416b6fb49fb1/transformed/ui-unit-1.3.3/res
+com.xperiencelabs.armenu.app-annotation-experimental-1.3.0-40 /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/res
+com.xperiencelabs.armenu.app-navigation-compose-2.6.0-41 /Users/drevsine/.gradle/caches/transforms-3/9f7f9b788fec15bb93507de51f131389/transformed/navigation-compose-2.6.0/res
+com.xperiencelabs.armenu.app-fragment-ktx-1.4.1-42 /Users/drevsine/.gradle/caches/transforms-3/a0b55528a2690468e947218eb0401b6f/transformed/fragment-ktx-1.4.1/res
+com.xperiencelabs.armenu.app-camera-lifecycle-1.2.2-43 /Users/drevsine/.gradle/caches/transforms-3/a97c24782b94db709d28390ea39aafdb/transformed/camera-lifecycle-1.2.2/res
+com.xperiencelabs.armenu.app-runtime-1.3.3-44 /Users/drevsine/.gradle/caches/transforms-3/a9c322a89f898c6ac92cbc4e804506e8/transformed/runtime-1.3.3/res
+com.xperiencelabs.armenu.app-fragment-1.4.1-45 /Users/drevsine/.gradle/caches/transforms-3/aacac6d32e1480a7714b7b074d68a733/transformed/fragment-1.4.1/res
+com.xperiencelabs.armenu.app-camera-video-1.2.2-46 /Users/drevsine/.gradle/caches/transforms-3/ac4884f0167079037d2c5cf2d994ca17/transformed/camera-video-1.2.2/res
+com.xperiencelabs.armenu.app-runtime-saveable-1.3.3-47 /Users/drevsine/.gradle/caches/transforms-3/ae22a8235ac8e14234098df979cffda4/transformed/runtime-saveable-1.3.3/res
+com.xperiencelabs.armenu.app-lifecycle-runtime-2.6.1-48 /Users/drevsine/.gradle/caches/transforms-3/b000c700754713dc8e2803f1edacb360/transformed/lifecycle-runtime-2.6.1/res
+com.xperiencelabs.armenu.app-coordinatorlayout-1.1.0-49 /Users/drevsine/.gradle/caches/transforms-3/b0f6f3bf4ed4099b387a119d6361ee2c/transformed/coordinatorlayout-1.1.0/res
+com.xperiencelabs.armenu.app-camera-extensions-1.2.2-50 /Users/drevsine/.gradle/caches/transforms-3/b51214e7e63aba05a9f7060ecfe227fe/transformed/camera-extensions-1.2.2/res
+com.xperiencelabs.armenu.app-animation-core-1.1.1-51 /Users/drevsine/.gradle/caches/transforms-3/b5a3a0b46fd60052a620a06e7393cb4b/transformed/animation-core-1.1.1/res
+com.xperiencelabs.armenu.app-ui-util-1.3.3-52 /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/res
+com.xperiencelabs.armenu.app-appcompat-resources-1.5.1-53 /Users/drevsine/.gradle/caches/transforms-3/c34d313ab1fb851af7eb0febb5eb4799/transformed/appcompat-resources-1.5.1/res
+com.xperiencelabs.armenu.app-material-icons-core-1.2.0-54 /Users/drevsine/.gradle/caches/transforms-3/c6e9e0680bfc219a67b0e1c282d79f9b/transformed/material-icons-core-1.2.0/res
+com.xperiencelabs.armenu.app-customview-poolingcontainer-1.0.0-55 /Users/drevsine/.gradle/caches/transforms-3/cae36f28be6fdfd398db5f5eb47c0c0c/transformed/customview-poolingcontainer-1.0.0/res
+com.xperiencelabs.armenu.app-lifecycle-viewmodel-compose-2.6.1-56 /Users/drevsine/.gradle/caches/transforms-3/cd8b0936d8f0052be86d8d6d5240f11d/transformed/lifecycle-viewmodel-compose-2.6.1/res
+com.xperiencelabs.armenu.app-camera-camera2-1.2.2-57 /Users/drevsine/.gradle/caches/transforms-3/d44eb6ed162386401f5865adc00edba5/transformed/camera-camera2-1.2.2/res
+com.xperiencelabs.armenu.app-foundation-layout-1.3.1-58 /Users/drevsine/.gradle/caches/transforms-3/d9a9ac31837b5780ce2f2bd104aa5f9b/transformed/foundation-layout-1.3.1/res
+com.xperiencelabs.armenu.app-cardview-1.0.0-59 /Users/drevsine/.gradle/caches/transforms-3/dcc90df5e29beb76e837b70cfc8a1b3a/transformed/cardview-1.0.0/res
+com.xperiencelabs.armenu.app-camera-core-1.2.2-60 /Users/drevsine/.gradle/caches/transforms-3/e225f4c8b6d3f8a067c8c5b70a8b74ee/transformed/camera-core-1.2.2/res
+com.xperiencelabs.armenu.app-sceneview-0.10.0-61 /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/res
+com.xperiencelabs.armenu.app-filament-android-1.36.0-62 /Users/drevsine/.gradle/caches/transforms-3/ebcff9c1a15b15720e40269a37923521/transformed/filament-android-1.36.0/res
+com.xperiencelabs.armenu.app-core-1.9.0-63 /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/res
+com.xperiencelabs.armenu.app-lifecycle-livedata-core-ktx-2.6.1-64 /Users/drevsine/.gradle/caches/transforms-3/f5ab28f044846af7e764f66b7ab93aba/transformed/lifecycle-livedata-core-ktx-2.6.1/res
+com.xperiencelabs.armenu.app-ui-text-1.3.3-65 /Users/drevsine/.gradle/caches/transforms-3/f8336d8697a85741743fe610d99565bd/transformed/ui-text-1.3.3/res
+com.xperiencelabs.armenu.app-lifecycle-viewmodel-ktx-2.6.1-66 /Users/drevsine/.gradle/caches/transforms-3/f89cbfe25634c4c6c486967d5478914b/transformed/lifecycle-viewmodel-ktx-2.6.1/res
+com.xperiencelabs.armenu.app-startup-runtime-1.1.1-67 /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/res
+com.xperiencelabs.armenu.app-resValues-68 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/generated/res/resValues/debug
+com.xperiencelabs.armenu.app-rs-69 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/generated/res/rs/debug
+com.xperiencelabs.armenu.app-packageDebugResources-70 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.xperiencelabs.armenu.app-packageDebugResources-71 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.xperiencelabs.armenu.app-merged_res-72 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/merged_res/debug
+com.xperiencelabs.armenu.app-debug-73 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/debug/res
+com.xperiencelabs.armenu.app-main-74 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res

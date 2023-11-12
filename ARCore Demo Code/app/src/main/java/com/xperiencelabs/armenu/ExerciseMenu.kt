@@ -59,7 +59,7 @@ class Exercise(name: String, model: String)
 
 class ExerciseMenu(e: Exercise)
 {
-    var exercises = arrayOf(Exercise("", ""))
+    var exercises = arrayOf(e)
 
     /*
     fun getExercise(name: String) : Exercise?
@@ -86,6 +86,7 @@ class ExerciseMenu(e: Exercise)
             Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                 for (exercise: Exercise in exerciseList)
                 {
+                    //Text(exercise.exerciseName, color = lightBlue, fontSize = 30.sp, textAlign = TextAlign.Center)
                     exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
 
                     IconButton(onClick = { navController.navigate("DisplayExercise") }) {

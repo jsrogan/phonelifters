@@ -9,6 +9,7 @@ import android.graphics.*
 import android.hardware.camera2.CameraCaptureSession
 import android.hardware.camera2.CameraDevice
 import android.hardware.camera2.CameraManager
+import android.hardware.camera2.CaptureRequest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -17,8 +18,6 @@ import android.util.Log
 import android.view.Surface
 import android.view.TextureView
 import android.widget.ImageView
-import androidx.compose.foundation.Image
-import androidx.compose.runtime.Composable
 import com.xperiencelabs.armenu.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.ImageProcessor
@@ -41,9 +40,8 @@ class PoseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pose) //put Compose here
         get_permissions()
-
         imageProcessor = ImageProcessor.Builder().add(ResizeOp(192, 192, ResizeOp.ResizeMethod.BILINEAR)).build()
-        model = LiteModelMovenetSingleposeLightningTfliteFloat164.newInstance(applicationContext)
+        model = LiteModelMovenetSingleposeLightningTfliteFloat164.newInstance(this)
         //imageView = findViewById(R.id.imageView) //separate composable, replace with Image or AsyncImage
         imageView = findViewById(R.id.imageView)
         textureView = findViewById(R.id.textureView) //separate composable, need SurfaceTexture to put in an AndroidView
@@ -161,5 +159,20 @@ https://stackoverflow.com/a/66942101,
 https://stackoverflow.com/a/69846812,
 https://stackoverflow.com/a/62891524,
 https://www.javatpoint.com/kotlin-android-explicit-intent,
-https://www.diffchecker.com/
+https://www.diffchecker.com/,
+https://www.geeksforgeeks.org/implicit-and-explicit-intents-in-android-with-examples/,
+https://stackoverflow.com/a/69846812,
+https://github.com/Pawandeep-prog/realtime_pose_detection_android,
+https://developer.android.com/jetpack/androidx/releases/compose-kotlin,
+https://github.com/tensorflow/tensorflow/issues/46356,
+https://docs.gradle.org/current/dsl/org.gradle.api.artifacts.ResolutionStrategy.html#org.gradle.api.artifacts.ResolutionStrategy:preferProjectModules(),
+https://docs.gradle.org/current/dsl/org.gradle.api.artifacts.ResolutionStrategy.html#org.gradle.api.artifacts.ResolutionStrategy,
+https://mvnrepository.com/artifact/org.tensorflow/tensorflow-lite-metadata,
+https://tfhub.dev/google/movenet/singlepose/lightning/4,
+https://developer.android.com/topic/libraries/support-library/packages,
+https://lightrun.com/answers/objectbox-objectbox-java-flatbuffers-version-conflicts-with-other-library,
+https://developers.google.com/ml-kit/vision/pose-detection/android,
+https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart,
+https://stackoverflow.com/a/56029604,
+
  */

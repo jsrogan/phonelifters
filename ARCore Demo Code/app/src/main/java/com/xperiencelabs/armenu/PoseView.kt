@@ -1,143 +1,147 @@
 //package de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture needed?
 package com.xperiencelabs.armenu
-/*
-import android.annotation.SuppressLint
+
+import android.Manifest
+import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
-import android.graphics.*
-import android.hardware.camera2.CameraCaptureSession
-import android.hardware.camera2.CameraDevice
-import android.hardware.camera2.CameraManager
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import android.os.HandlerThread
+import android.provider.MediaStore
+import androidx.appcompat.app.AppCompatActivity
+import androidx.camera.core.ImageCapture
+import androidx.camera.video.Recorder
+import androidx.camera.video.Recording
+import androidx.camera.video.VideoCapture
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.camera.core.Preview
+import androidx.camera.core.CameraSelector
 import android.util.Log
-import android.view.Surface
-import android.view.TextureView
-import android.widget.ImageView
-import androidx.compose.foundation.Image
-import com.xperiencelabs.armenu.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
-import org.tensorflow.lite.DataType
-import org.tensorflow.lite.support.image.ImageProcessor
-import org.tensorflow.lite.support.image.TensorImage
-import org.tensorflow.lite.support.image.ops.ResizeOp
-import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
-//import com.xperiencelabs.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
-class PoseView : AppCompatActivity() {
+import androidx.camera.core.ImageAnalysis
+import androidx.camera.core.ImageCaptureException
+import androidx.camera.core.ImageProxy
+import androidx.camera.video.FallbackStrategy
+import androidx.camera.video.MediaStoreOutputOptions
+import androidx.camera.video.Quality
+import androidx.camera.video.QualitySelector
+import androidx.camera.video.VideoRecordEvent
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+//import androidx.compose.foundation.layout.RowScopeInstance.align
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.Button
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.core.content.PermissionChecker
+import androidx.navigation.NavHostController
+import com.google.ar.core.Config
+import com.xperiencelabs.armenu.ui.theme.HeavenWhite
+import com.xperiencelabs.armenu.ui.theme.arsenic
+import io.github.sceneview.ar.ARScene
+import io.github.sceneview.ar.node.ArModelNode
+import io.github.sceneview.ar.node.ArNode
+import io.github.sceneview.ar.node.PlacementMode
+import java.nio.ByteBuffer
+import java.text.SimpleDateFormat
+import java.util.Locale
 
-    val paint = Paint()
-    lateinit var imageProcessor: ImageProcessor
-    lateinit var model: LiteModelMovenetSingleposeLightningTfliteFloat164
-    lateinit var bitmap: Bitmap
-    lateinit var imageView: ImageView
-    lateinit var handler:Handler
-    lateinit var handlerThread: HandlerThread
-    lateinit var textureView: TextureView
-    lateinit var cameraManager: CameraManager
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pose) //put Compose here
-        get_permissions()
 
-        imageProcessor = ImageProcessor.Builder().add(ResizeOp(192, 192, ResizeOp.ResizeMethod.BILINEAR)).build()
-        model = LiteModelMovenetSingleposeLightningTfliteFloat164.newInstance(this)
-        //imageView = findViewById(R.id.imageView) //separate composable, replace with Image or AsyncImage
-        imageView = findViewById(R.id.imageView)
-        textureView = findViewById(R.id.textureView) //separate composable, need SurfaceTexture to put in an AndroidView
-        cameraManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
-        handlerThread = HandlerThread("videoThread")
-        handlerThread.start()
-        handler = Handler(handlerThread.looper)
+@Composable
+fun PoseView(navHostController: NavHostController) {
+    val nodes = remember {
+        mutableListOf<ArNode>()
+    }
+    val modelNode = remember {
+        mutableStateOf<ArModelNode?>(null)
+    }
+    val placeModelButton = remember {
+        mutableStateOf(false)
+    }
+    Box(modifier = Modifier.fillMaxSize()){
+        ARScene(
+            modifier = Modifier.fillMaxSize(),
+            nodes = nodes,
+            planeRenderer = true,
+            onCreate = {arSceneView ->
+                arSceneView.lightEstimationMode = Config.LightEstimationMode.DISABLED
+                arSceneView.planeRenderer.isShadowReceiver = false
+                modelNode.value = ArModelNode(arSceneView.engine, PlacementMode.INSTANT).apply {
+                    loadModelGlbAsync(
+                        glbFileLocation = "models/${model}.glb",
+                        scaleToUnits = 0.8f,
+                        autoAnimate = true,
+                        //CHECK
+                        //Rotation needs to be purposeful, not random, research anchor
+                    ){
 
-        paint.setColor(Color.YELLOW)
-
-        textureView.surfaceTextureListener = object:TextureView.SurfaceTextureListener{
-            override fun onSurfaceTextureAvailable(p0: SurfaceTexture, p1: Int, p2: Int) {
-                open_camera()
-            }
-
-            override fun onSurfaceTextureSizeChanged(p0: SurfaceTexture, p1: Int, p2: Int) {
-
-            }
-
-            override fun onSurfaceTextureDestroyed(p0: SurfaceTexture): Boolean {
-                return false
-            }
-
-            override fun onSurfaceTextureUpdated(p0: SurfaceTexture) {
-                bitmap = textureView.bitmap!!
-                var tensorImage = TensorImage(DataType.UINT8)
-                tensorImage.load(bitmap)
-                tensorImage = imageProcessor.process(tensorImage)
-
-                val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 192, 192, 3), DataType.UINT8)
-                inputFeature0.loadBuffer(tensorImage.buffer)
-
-                val outputs = model.process(inputFeature0)
-                val outputFeature0 = outputs.outputFeature0AsTensorBuffer.floatArray
-
-                var mutable = bitmap.copy(Bitmap.Config.ARGB_8888, true)
-                var canvas = Canvas(mutable)
-                var h = bitmap.height
-                var w = bitmap.width
-                var x = 0
-
-                Log.d("output__", outputFeature0.size.toString())
-                while(x <= 49){
-                    if(outputFeature0.get(x+2) > 0.45){
-                        canvas.drawCircle(outputFeature0.get(x+1)*w, outputFeature0.get(x)*h, 10f, paint)
                     }
-                    x+=3
+                    onAnchorChanged = {
+                        placeModelButton.value = !isAnchored
+                    }
+                    onHitResult = {node, hitResult ->
+                        placeModelButton.value = node.isTracking
+                    }
+
                 }
-
-                imageView.setImageBitmap(mutable)
+                nodes.add(modelNode.value!!)
+            },
+            onSessionCreate = {
+                planeRenderer.isVisible = false
             }
+        )
+
+        if(placeModelButton.value){
+            Column(modifier = Modifier
+                .padding(8.dp, 0.dp, 8.dp, 0.dp)
+                .background(color = HeavenWhite)) {
+                Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
+                    IconButton(onClick = { navHostController.popBackStack() }) {
+                        Icon(imageVector = ImageVector.vectorResource(R.drawable.back_button),
+                            contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                            modifier = Modifier.scale(1.4f),
+                        )
+                    }
+                }
+                Text("Try Exercise Yourself", color = arsenic, fontSize = 30.sp)
+            }
+
+            Button(onClick = {
+                //val intent = Intent(context, PoseActivity::class.java)
+                //context.startActivity(intent)
+                navHostController.navigate("ExerciseMenu")
+            }, modifier = Modifier.align(Alignment.BottomCenter)) {
+                Text(text = "Done")
+            }
+
         }
 
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        model.close()
-    }
-
-    @SuppressLint("MissingPermission")
-    fun open_camera(){
-        cameraManager.openCamera(cameraManager.cameraIdList[0], object:CameraDevice.StateCallback(){
-            override fun onOpened(p0: CameraDevice) {
-                var captureRequest = p0.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
-                var surface = Surface(textureView.surfaceTexture)
-                captureRequest.addTarget(surface)
-                p0.createCaptureSession(listOf(surface), object:CameraCaptureSession.StateCallback(){
-                    override fun onConfigured(p0: CameraCaptureSession) {
-                        p0.setRepeatingRequest(captureRequest.build(), null, null)
-                    }
-                    override fun onConfigureFailed(p0: CameraCaptureSession) {
-
-                    }
-                }, handler)
-            }
-
-            override fun onDisconnected(p0: CameraDevice) {
-
-            }
-
-            override fun onError(p0: CameraDevice, p1: Int) {
-
-            }
-        }, handler)
-    }
-
-    fun get_permissions(){
-        if(checkSelfPermission(android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-            requestPermissions(arrayOf(android.Manifest.permission.CAMERA), 101)
-        }
-    }
-    override fun onRequestPermissionsResult(  requestCode: Int, permissions: Array<out String>, grantResults: IntArray  ) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if(grantResults[0] != PackageManager.PERMISSION_GRANTED) get_permissions()
-    }
 }
 
 /*
@@ -147,5 +151,5 @@ https://developer.android.com/codelabs/camerax-getting-started#1,
 https://github.com/Pawandeep-prog/realtime_pose_detection_android/tree/main,
 https://www.geeksforgeeks.org/imageview-in-android-using-jetpack-compose/,
 https://developer.android.com/training/sharing/send#:~:text=Android%20uses%20the%20action%20ACTION_SEND,displays%20them%20to%20the%20user.,
-
+https://developer.android.com/codelabs/camerax-getting-started#1
  */

@@ -8,8 +8,10 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+//import androidx.compose.foundation.layout.RowScopeInstance.align
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -18,9 +20,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -28,7 +36,11 @@ import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
 import com.google.ar.core.Config
 import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
+import com.xperiencelabs.armenu.ui.theme.Gray88
+import com.xperiencelabs.armenu.ui.theme.HeavenWhite
 import com.xperiencelabs.armenu.ui.theme.Translucent
+import com.xperiencelabs.armenu.ui.theme.arsenic
+import com.xperiencelabs.armenu.ui.theme.lightBlue
 import dev.romainguy.kotlin.math.Quaternion
 import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
@@ -167,10 +179,25 @@ fun ARScreen(model:String, navHostController: NavHostController, context: Contex
         )
 
         if(placeModelButton.value){
+            Column(modifier = Modifier
+                .padding(8.dp, 0.dp, 8.dp, 0.dp)
+                .background(color = HeavenWhite)) {
+                Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
+                    IconButton(onClick = { navHostController.popBackStack() }) {
+                            Icon(imageVector = ImageVector.vectorResource(R.drawable.back_button),
+                                contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                                modifier = Modifier.scale(1.4f),
+                            )
+                    }
+                }
+                Text("Arm Curl Demonstration", color = arsenic, fontSize = 30.sp)
+            }
+
             Button(onClick = {
-                val intent = Intent(context, PoseActivity::class.java)
-                context.startActivity(intent)
-            }, modifier = Modifier.align(Alignment.Center)) {
+                //val intent = Intent(context, PoseActivity::class.java)
+                //context.startActivity(intent)
+                navHostController.navigate("PoseView")
+            }, modifier = Modifier.align(Alignment.BottomCenter)) {
                 Text(text = "Try exercise myself")
             }
         }
@@ -212,4 +239,12 @@ class DisplayExercise {
         }
     }
 }
+ */
+
+/*
+sources: https://stackoverflow.com/a/72898717,
+https://developer.android.com/reference/android/text/Layout.Alignment,
+https://stackoverflow.com/a/22966322,
+https://stackoverflow.com/a/64470532,
+
  */
