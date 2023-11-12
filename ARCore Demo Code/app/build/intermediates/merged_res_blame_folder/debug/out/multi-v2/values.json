@@ -99,9 +99,9 @@
                     "from": {
                         "startLines": "1,3,2",
                         "startColumns": "4,4,4",
-                        "startOffsets": "16,122,60",
-                        "endColumns": "43,51,61",
-                        "endOffsets": "55,169,117"
+                        "startOffsets": "16,120,60",
+                        "endColumns": "43,49,59",
+                        "endOffsets": "55,165,115"
                     },
                     "to": {
                         "startLines": "1730,1732,1770",

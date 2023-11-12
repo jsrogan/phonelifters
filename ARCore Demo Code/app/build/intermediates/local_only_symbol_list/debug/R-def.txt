@@ -17,13 +17,10 @@ drawable instant
 drawable momos
 drawable pizza
 drawable ramen
-<<<<<<< Updated upstream
-=======
 drawable start_exercise_button
 id imageView
 id textureView
 layout activity_pose
->>>>>>> Stashed changes
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -24,6 +24,8 @@ import com.google.ar.core.dependencies.i
 import com.xperiencelabs.armenu.ui.theme.Gray88
 import com.xperiencelabs.armenu.ui.theme.HeavenWhite
 import androidx.navigation.NavHostController
+import com.xperiencelabs.armenu.ui.theme.arsenic
+import com.xperiencelabs.armenu.ui.theme.lightBlue
 
 class Exercise(name: String, model: String)
 {
@@ -55,7 +57,7 @@ class Exercise(name: String, model: String)
      */
 }
 
-class ExerciseMenu
+class ExerciseMenu(e: Exercise)
 {
     var exercises = arrayOf(Exercise("", ""))
 
@@ -77,12 +79,16 @@ class ExerciseMenu
         Column(modifier = Modifier
             .padding(8.dp, 0.dp, 8.dp, 0.dp)
             .background(color = if (index % 2 == 0) Gray88 else HeavenWhite)) {
+            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f).background(color = lightBlue)) {
+                Text("Pick an Exercise", color = arsenic, fontSize = 30.sp, textAlign = TextAlign.Center)
+            }
+
             Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                 for (exercise: Exercise in exerciseList)
                 {
                     exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
 
-                    IconButton(onClick = { navController.navigate("MainActivity") }) {
+                    IconButton(onClick = { navController.navigate("DisplayExercise") }) {
                         Icon(imageVector = ImageVector.vectorResource(R.drawable.start_exercise_button),
                             contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
                             modifier = Modifier.scale(1.4f),
@@ -91,12 +97,16 @@ class ExerciseMenu
                     }
 
                 }
-
-
             }
         }
     }
 
+}
+
+@Composable
+fun MainView(exerciseMenu: ExerciseMenu, list: Array<Exercise>, navController: NavHostController)
+{
+    exerciseMenu.ShowExercises(index = 0, exerciseList = list, navController = navController)
 }
 
 /*

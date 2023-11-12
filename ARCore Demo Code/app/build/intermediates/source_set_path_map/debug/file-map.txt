@@ -79,6 +79,4 @@ com.xperiencelabs.armenu.app-packageDebugResources-77 /Users/drevsine/Desktop/Gi
 com.xperiencelabs.armenu.app-packageDebugResources-78 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
 com.xperiencelabs.armenu.app-merged_res-79 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/build/intermediates/merged_res/debug
 com.xperiencelabs.armenu.app-debug-80 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/debug/res
-com.xperiencelabs.armenu.app-main-81 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/ml
-com.xperiencelabs.armenu.app-main-82 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res
-com.xperiencelabs.armenu.app-res-83 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res/ml
+com.xperiencelabs.armenu.app-main-81 /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/res

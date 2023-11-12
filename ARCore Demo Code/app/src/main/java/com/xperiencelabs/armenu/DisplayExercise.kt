@@ -21,11 +21,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-<<<<<<< Updated upstream
-=======
 import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.NavHostController
->>>>>>> Stashed changes
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
@@ -37,8 +34,6 @@ import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
 import io.github.sceneview.ar.node.PlacementMode
-<<<<<<< Updated upstream
-=======
 
 class DisplayExercise : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -195,8 +190,6 @@ fun ARScreen(model:String, navHostController: NavHostController, context: Contex
 
 
 data class Models(var name:String,var imageId:Int)
-
->>>>>>> Stashed changes
 /*
 class DisplayExercise {
     ARMenuTheme
