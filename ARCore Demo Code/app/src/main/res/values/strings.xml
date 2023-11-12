@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ARMenu</string>
-    <string name = "exercise_select">Select Exercise</string>
-    <string name = "bicep_curl">Bicep Curl</string>
+    <string name="exercise_select">Select Exercise</string>
+    <string name="bicep_curl">Bicep Curl</string>
 </resources>

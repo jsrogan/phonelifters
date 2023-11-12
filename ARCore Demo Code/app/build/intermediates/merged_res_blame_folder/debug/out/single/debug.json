@@ -1,102 +1,123 @@
 [
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_momos.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/momos.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/layout_activity_pose.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/layout/activity_pose.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_pizza.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/pizza.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/baseline_arrow_forward_ios_24.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.xperiencelabs.armenu.app-merged_res-80:/layout_activity_pose.xml.flat",
+        "source": "com.xperiencelabs.armenu.app-main-83:/layout/activity_pose.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_ramen.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/ramen.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/xml_data_extraction_rules.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/xml/data_extraction_rules.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_start_exercise_button.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/start_exercise_button.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/baseline_arrow_forward_ios_24.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_demo.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/demo.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_instant.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/instant.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/xml/data_extraction_rules.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/xml_backup_rules.xml.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/xml/backup_rules.xml"
     },
     {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_pizza.webp.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/drawable/pizza.webp"
+=======
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_baseline_arrow_back_ios_24.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/baseline_arrow_back_ios_24.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_ramen.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/ramen.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-mdpi/ic_launcher.webp"
+>>>>>>> Stashed changes
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_instant.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/instant.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_demo.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/demo.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_burger.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/burger.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_burger.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/burger.webp"
+    },
+    {
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/drawable_momos.webp.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/drawable/momos.webp"
+    },
+    {
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/xml_backup_rules.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/drevsine/.gradle/daemon/7.5/com.xperiencelabs.armenu.app-main-83:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

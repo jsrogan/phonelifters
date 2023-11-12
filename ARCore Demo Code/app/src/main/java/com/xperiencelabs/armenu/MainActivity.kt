@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+<<<<<<< Updated upstream
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -19,6 +20,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+=======
+import androidx.compose.ui.platform.LocalContext
+>>>>>>> Stashed changes
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
@@ -34,6 +38,40 @@ import io.github.sceneview.ar.node.PlacementMode
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< Updated upstream
+=======
+
+        setContent {
+            val exercise = Exercise("Arm Curl", "bigtest.glb")
+            val exerciseMenu = ExerciseMenu(exercise)
+            val navController = rememberNavController()
+            val context = LocalContext.current
+            NavHost(navController, startDestination = "ExerciseMenu") {
+                composable("ExerciseMenu") {
+                    MainView(exerciseMenu, exerciseMenu.exercises, navController = navController)
+                    //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
+                }
+
+                composable("DisplayExercise")
+                {
+                    ARScreen(model = "bigtest", navController, context)
+                }
+
+                /*
+                composable("PoseView"){
+                    PoseActivity()
+                }
+                 */
+            }
+        }
+    }
+}
+
+/*
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+>>>>>>> Stashed changes
         setContent {
 
             ARMenuTheme {
