@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="R">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/hello_ar_kotlin/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

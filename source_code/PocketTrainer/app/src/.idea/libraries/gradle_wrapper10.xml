@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="gradle-wrapper10">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/main/java/edu/umich/phonelifters/arcore-android-sdk/samples/ml_kotlin/gradle/wrapper/gradle-wrapper.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

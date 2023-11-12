@@ -1,0 +1,996 @@
+-- Merging decision tree log ---
+manifest
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+=======
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.compose.material:material:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/95bdba9c918a04e4e525370868c15b48/transformed/navigation-common-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/8d08f2c591488087b78602775fa08d5a/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/5b448e7c7bf1f19b197e77355aa4ad1a/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/3b697b4db22b373370f4d58cdec141f2/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/9f7f9b788fec15bb93507de51f131389/transformed/navigation-compose-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/40aa8f44850f119073c32f7a5ed50e57/transformed/material-ripple-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/214cbadb9e5d426ed92b9b0f6cd70e12/transformed/foundation-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/7d35d551535bdbe4b2e1b063aee342e7/transformed/animation-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b2b504a6c1f6b02cca9bea5855553309/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c6e9e0680bfc219a67b0e1c282d79f9b/transformed/material-icons-core-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/a0b55528a2690468e947218eb0401b6f/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/c34d313ab1fb851af7eb0febb5eb4799/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/ef7413c8ed24b46377b0f24f3decde50/transformed/pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/drevsine/.gradle/caches/transforms-3/c8bfd19c3aae591cc1c90cb9da5225af/transformed/mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/7c3537ce1e5d1f620e8ea80c7b1b244b/transformed/vision-interfaces-16.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/drevsine/.gradle/caches/transforms-3/9570168c10bdcbb98f2c1a30aa1f258f/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/e34dea7e25e161251cfdd385933cab60/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/aacac6d32e1480a7714b7b074d68a733/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/40260dc799e3d03d4ed97b9dfdf75c6d/transformed/activity-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/0d95de2293ae981c077de20c740c9889/transformed/activity-ktx-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/8a80cfd1f569eed1bfdf1b1d4a3b572f/transformed/activity-compose-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/cae36f28be6fdfd398db5f5eb47c0c0c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/2d2cb7a64ffeec56789f98c9eaa35c00/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/98b62496db80c5f7334c63c8ef1594c6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f5ab28f044846af7e764f66b7ab93aba/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/14db8972dd25747ebf7aedd9ea45766b/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/1b8167d12a200ef67b49ec4279df027b/transformed/lifecycle-service-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/5fbf3876ecb0a88b7dcccdd061affe0a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4cdb49b0d47ca31fbe8f7e71a27210c2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/0ce74b002f359e0528521bad752891bb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/1f1ca91f831f8484b935157a92ab0f9c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f89cbfe25634c4c6c486967d5478914b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/8d27d1f18bd7b01f7f97ff893118390e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4e84a2f6af8ba1dfb564537908d06ab4/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/5f3734dc42c8522e9fe4807b971b3889/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/f8336d8697a85741743fe610d99565bd/transformed/ui-text-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/9963b64f36c95a582fd6259ebee4b783/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/d9a9ac31837b5780ce2f2bd104aa5f9b/transformed/foundation-layout-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/4091ae1981d7ed60785fe07ae06dd610/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/118a0cae2c4b44cec6097a60cd253593/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/9b5817c3a92d7366c3231b0a6adc6bdc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/13c53372c38558e7012eae9655f785d8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/674afedd4adc863db6e27fb0dc6cd5f2/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/b000c700754713dc8e2803f1edacb360/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6e6fcd315d2914af4ad2cbb4faca5a8d/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/cd8b0936d8f0052be86d8d6d5240f11d/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/b5a3a0b46fd60052a620a06e7393cb4b/transformed/animation-core-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ad4d6266d7fe72ce82cfe13e9951f3f1/transformed/ui-tooling-preview-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/ae22a8235ac8e14234098df979cffda4/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/2f425488b120a4b818424bf780cd0f14/transformed/ui-graphics-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/9b996a5c214408015649416b6fb49fb1/transformed/ui-unit-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/55cf4222745454e35d761481380329b6/transformed/ui-geometry-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/a9c322a89f898c6ac92cbc4e804506e8/transformed/runtime-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/e11aa5db77307c8d827df85b8742aabf/transformed/filament-utils-android-1.36.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:8:1-40:12
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/feba5e02ae9836ade6b35d4314320df1/transformed/gltfio-android-1.36.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.filament:filament-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/ebcff9c1a15b15720e40269a37923521/transformed/filament-android-1.36.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/12300820f0d60b288a19d7ebf5066de8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/drevsine/.gradle/caches/transforms-3/a5629c251480f2a84937af3abda28832/transformed/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/4cafeacfd14d812ed6323dd47c8b3cc8/transformed/firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/drevsine/.gradle/caches/transforms-3/d33e8ce9ebb1260cc0866e44756eaf06/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/03f7efd144c869dc5e7d802beb82fc16/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/903793525fb35c0bb7d8986975b16eb6/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/df3e4e01e3d0f58e379225b2d6d5e7cb/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/42d42e9fdc10b3a8efed0d75b71fafe6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/d41826fca4fd43026506b6eedd8999db/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/55b4c99d7208f8203f3d4334143c7709/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/54c2662015117fc120e7543d59cd2364/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.gradle/caches/transforms-3/7c53cb29818fa8bd5193543cf3df30e6/transformed/fuel-android-2.3.1/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+=======
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] /Users/drevsine/.gradle/caches/transforms-3/e7d6bf4f3acabdc42d3a8036b0ac42b9/transformed/tensorflow-lite-task-base-0.2.0/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+	xmlns:tools
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+=======
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+	xmlns:android
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:11-69
+application
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:5:5-25:19
+=======
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:5:5-37:19
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:11:5-21:19
+MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:11:5-21:19
+MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:23:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:23:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:23:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/ef7413c8ed24b46377b0f24f3decde50/transformed/pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/ef7413c8ed24b46377b0f24f3decde50/transformed/pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/drevsine/.gradle/caches/transforms-3/9570168c10bdcbb98f2c1a30aa1f258f/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/drevsine/.gradle/caches/transforms-3/9570168c10bdcbb98f2c1a30aa1f258f/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/e34dea7e25e161251cfdd385933cab60/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/e34dea7e25e161251cfdd385933cab60/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/03f7efd144c869dc5e7d802beb82fc16/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/03f7efd144c869dc5e7d802beb82fc16/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:8:9-54
+	tools:targetApi
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:13:9-29
+	android:icon
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:12:9-44
+	android:dataExtractionRules
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.xperiencelabs.armenu.MainActivity
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:14:9-24:20
+	android:label
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:17:13-45
+	android:exported
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:16:13-36
+	android:theme
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:18:13-48
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:27-74
+=======
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:19:13-48
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.xperiencelabs.armenu.PoseActivity
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:26:9-36:20
+	android:label
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:29:13-45
+	android:exported
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:28:13-36
+	android:theme
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:30:13-51
+	android:name
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:27:13-41
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+uses-sdk
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/95bdba9c918a04e4e525370868c15b48/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/95bdba9c918a04e4e525370868c15b48/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/8d08f2c591488087b78602775fa08d5a/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/8d08f2c591488087b78602775fa08d5a/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/5b448e7c7bf1f19b197e77355aa4ad1a/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/5b448e7c7bf1f19b197e77355aa4ad1a/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/3b697b4db22b373370f4d58cdec141f2/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/3b697b4db22b373370f4d58cdec141f2/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/9f7f9b788fec15bb93507de51f131389/transformed/navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/drevsine/.gradle/caches/transforms-3/9f7f9b788fec15bb93507de51f131389/transformed/navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/40aa8f44850f119073c32f7a5ed50e57/transformed/material-ripple-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material-ripple:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/40aa8f44850f119073c32f7a5ed50e57/transformed/material-ripple-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/214cbadb9e5d426ed92b9b0f6cd70e12/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/214cbadb9e5d426ed92b9b0f6cd70e12/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/7d35d551535bdbe4b2e1b063aee342e7/transformed/animation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/7d35d551535bdbe4b2e1b063aee342e7/transformed/animation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b2b504a6c1f6b02cca9bea5855553309/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b2b504a6c1f6b02cca9bea5855553309/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c6e9e0680bfc219a67b0e1c282d79f9b/transformed/material-icons-core-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c6e9e0680bfc219a67b0e1c282d79f9b/transformed/material-icons-core-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/a0b55528a2690468e947218eb0401b6f/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/a0b55528a2690468e947218eb0401b6f/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/c34d313ab1fb851af7eb0febb5eb4799/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/c34d313ab1fb851af7eb0febb5eb4799/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/ef7413c8ed24b46377b0f24f3decde50/transformed/pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/ef7413c8ed24b46377b0f24f3decde50/transformed/pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/drevsine/.gradle/caches/transforms-3/c8bfd19c3aae591cc1c90cb9da5225af/transformed/mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/drevsine/.gradle/caches/transforms-3/c8bfd19c3aae591cc1c90cb9da5225af/transformed/mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/7c3537ce1e5d1f620e8ea80c7b1b244b/transformed/vision-interfaces-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/7c3537ce1e5d1f620e8ea80c7b1b244b/transformed/vision-interfaces-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/drevsine/.gradle/caches/transforms-3/9570168c10bdcbb98f2c1a30aa1f258f/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/drevsine/.gradle/caches/transforms-3/9570168c10bdcbb98f2c1a30aa1f258f/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/e34dea7e25e161251cfdd385933cab60/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/e34dea7e25e161251cfdd385933cab60/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/aacac6d32e1480a7714b7b074d68a733/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/drevsine/.gradle/caches/transforms-3/aacac6d32e1480a7714b7b074d68a733/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/40260dc799e3d03d4ed97b9dfdf75c6d/transformed/activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/40260dc799e3d03d4ed97b9dfdf75c6d/transformed/activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/0d95de2293ae981c077de20c740c9889/transformed/activity-ktx-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/0d95de2293ae981c077de20c740c9889/transformed/activity-ktx-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/8a80cfd1f569eed1bfdf1b1d4a3b572f/transformed/activity-compose-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.0] /Users/drevsine/.gradle/caches/transforms-3/8a80cfd1f569eed1bfdf1b1d4a3b572f/transformed/activity-compose-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/cae36f28be6fdfd398db5f5eb47c0c0c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/cae36f28be6fdfd398db5f5eb47c0c0c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/2d2cb7a64ffeec56789f98c9eaa35c00/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/2d2cb7a64ffeec56789f98c9eaa35c00/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/98b62496db80c5f7334c63c8ef1594c6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/98b62496db80c5f7334c63c8ef1594c6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f5ab28f044846af7e764f66b7ab93aba/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f5ab28f044846af7e764f66b7ab93aba/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/14db8972dd25747ebf7aedd9ea45766b/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/14db8972dd25747ebf7aedd9ea45766b/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/1b8167d12a200ef67b49ec4279df027b/transformed/lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/1b8167d12a200ef67b49ec4279df027b/transformed/lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/5fbf3876ecb0a88b7dcccdd061affe0a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/5fbf3876ecb0a88b7dcccdd061affe0a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4cdb49b0d47ca31fbe8f7e71a27210c2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4cdb49b0d47ca31fbe8f7e71a27210c2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/0ce74b002f359e0528521bad752891bb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/0ce74b002f359e0528521bad752891bb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/1f1ca91f831f8484b935157a92ab0f9c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/drevsine/.gradle/caches/transforms-3/1f1ca91f831f8484b935157a92ab0f9c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f89cbfe25634c4c6c486967d5478914b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/f89cbfe25634c4c6c486967d5478914b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/8d27d1f18bd7b01f7f97ff893118390e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/8d27d1f18bd7b01f7f97ff893118390e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4e84a2f6af8ba1dfb564537908d06ab4/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/4e84a2f6af8ba1dfb564537908d06ab4/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/5f3734dc42c8522e9fe4807b971b3889/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/5f3734dc42c8522e9fe4807b971b3889/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/f8336d8697a85741743fe610d99565bd/transformed/ui-text-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/f8336d8697a85741743fe610d99565bd/transformed/ui-text-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/9963b64f36c95a582fd6259ebee4b783/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/9963b64f36c95a582fd6259ebee4b783/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/d9a9ac31837b5780ce2f2bd104aa5f9b/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/drevsine/.gradle/caches/transforms-3/d9a9ac31837b5780ce2f2bd104aa5f9b/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/4091ae1981d7ed60785fe07ae06dd610/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/4091ae1981d7ed60785fe07ae06dd610/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/118a0cae2c4b44cec6097a60cd253593/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/118a0cae2c4b44cec6097a60cd253593/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/9b5817c3a92d7366c3231b0a6adc6bdc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/drevsine/.gradle/caches/transforms-3/9b5817c3a92d7366c3231b0a6adc6bdc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/13c53372c38558e7012eae9655f785d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/13c53372c38558e7012eae9655f785d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/674afedd4adc863db6e27fb0dc6cd5f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/674afedd4adc863db6e27fb0dc6cd5f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/b000c700754713dc8e2803f1edacb360/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/b000c700754713dc8e2803f1edacb360/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6e6fcd315d2914af4ad2cbb4faca5a8d/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6e6fcd315d2914af4ad2cbb4faca5a8d/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/cd8b0936d8f0052be86d8d6d5240f11d/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/cd8b0936d8f0052be86d8d6d5240f11d/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/b5a3a0b46fd60052a620a06e7393cb4b/transformed/animation-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/b5a3a0b46fd60052a620a06e7393cb4b/transformed/animation-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/864bd4f7c1ec2fbce74efa5d59ccb7c6/transformed/ui-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ad4d6266d7fe72ce82cfe13e9951f3f1/transformed/ui-tooling-preview-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/ad4d6266d7fe72ce82cfe13e9951f3f1/transformed/ui-tooling-preview-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/ae22a8235ac8e14234098df979cffda4/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/ae22a8235ac8e14234098df979cffda4/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/2f425488b120a4b818424bf780cd0f14/transformed/ui-graphics-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/2f425488b120a4b818424bf780cd0f14/transformed/ui-graphics-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/9b996a5c214408015649416b6fb49fb1/transformed/ui-unit-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/9b996a5c214408015649416b6fb49fb1/transformed/ui-unit-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/55cf4222745454e35d761481380329b6/transformed/ui-geometry-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/55cf4222745454e35d761481380329b6/transformed/ui-geometry-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/a9c322a89f898c6ac92cbc4e804506e8/transformed/runtime-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/a9c322a89f898c6ac92cbc4e804506e8/transformed/runtime-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/e11aa5db77307c8d827df85b8742aabf/transformed/filament-utils-android-1.36.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/e11aa5db77307c8d827df85b8742aabf/transformed/filament-utils-android-1.36.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/feba5e02ae9836ade6b35d4314320df1/transformed/gltfio-android-1.36.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/feba5e02ae9836ade6b35d4314320df1/transformed/gltfio-android-1.36.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:filament-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/ebcff9c1a15b15720e40269a37923521/transformed/filament-android-1.36.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.filament:filament-android:1.36.0] /Users/drevsine/.gradle/caches/transforms-3/ebcff9c1a15b15720e40269a37923521/transformed/filament-android-1.36.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/12300820f0d60b288a19d7ebf5066de8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/12300820f0d60b288a19d7ebf5066de8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/drevsine/.gradle/caches/transforms-3/a5629c251480f2a84937af3abda28832/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/drevsine/.gradle/caches/transforms-3/a5629c251480f2a84937af3abda28832/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/4cafeacfd14d812ed6323dd47c8b3cc8/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/drevsine/.gradle/caches/transforms-3/4cafeacfd14d812ed6323dd47c8b3cc8/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/drevsine/.gradle/caches/transforms-3/d33e8ce9ebb1260cc0866e44756eaf06/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/drevsine/.gradle/caches/transforms-3/d33e8ce9ebb1260cc0866e44756eaf06/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/03f7efd144c869dc5e7d802beb82fc16/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/03f7efd144c869dc5e7d802beb82fc16/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/903793525fb35c0bb7d8986975b16eb6/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/903793525fb35c0bb7d8986975b16eb6/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/df3e4e01e3d0f58e379225b2d6d5e7cb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/df3e4e01e3d0f58e379225b2d6d5e7cb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/42d42e9fdc10b3a8efed0d75b71fafe6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/drevsine/.gradle/caches/transforms-3/42d42e9fdc10b3a8efed0d75b71fafe6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/d41826fca4fd43026506b6eedd8999db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/drevsine/.gradle/caches/transforms-3/d41826fca4fd43026506b6eedd8999db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/55b4c99d7208f8203f3d4334143c7709/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/55b4c99d7208f8203f3d4334143c7709/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/54c2662015117fc120e7543d59cd2364/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/drevsine/.gradle/caches/transforms-3/54c2662015117fc120e7543d59cd2364/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.gradle/caches/transforms-3/7c53cb29818fa8bd5193543cf3df30e6/transformed/fuel-android-2.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.gradle/caches/transforms-3/7c53cb29818fa8bd5193543cf3df30e6/transformed/fuel-android-2.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+=======
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+	android:targetSdkVersion
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
+=======
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		MERGED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		MERGED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+uses-permission#android.permission.CAMERA
+ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:22-68
+meta-data#com.google.ar.core
+ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:18:9-20:40
+	android:value
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:19:13-46
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:25:13-71
+uses-permission#android.permission.INTERNET
+ADDED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:8:22-64
+uses-feature#0x00030000
+ADDED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:11:5-13:35
+	android:glEsVersion
+		ADDED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:12:9-41
+	android:required
+		ADDED from [io.github.sceneview:sceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/e3841cd8b151ad84b16bc7efed90d7d1/transformed/sceneview-0.10.0/AndroidManifest.xml:13:9-32
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/c06da0083e9e02f2e7ff9493d35d9ddc/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:25:13-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:22-76
+uses-native-library
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:17:13-40
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:27:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/drevsine/.gradle/caches/transforms-3/e52761963da278979575a674450a5ba2/transformed/pose-detection-common-18.0.0-beta3/AndroidManifest.xml:30:17-114
+service#com.google.mlkit.acceleration.internal.MlKitRemoteWorkerService
+ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:8:9-11:68
+	android:process
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:11:13-65
+	android:exported
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/caa52f4733cc37bc6639801c7b0f339b/transformed/acceleration-16.0.0-beta1/AndroidManifest.xml:9:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.2.1] /Users/drevsine/.gradle/caches/transforms-3/386e90de47230527b0df0dda79b7d8d0/transformed/vision-common-17.2.1/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.5.0] /Users/drevsine/.gradle/caches/transforms-3/d6f831aba93b7ae53a1d900a7f5a7fd5/transformed/common-18.5.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/d0b8fa32f3806547f0b5b847d976276b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/drevsine/.gradle/caches/transforms-3/15ea7f1d5843f2aa851ebbf92a805572/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/drevsine/.gradle/caches/transforms-3/fd827beaa81c0a833940a0288c055c83/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/8a1e529c49a4f27ba49ec489fbc1f270/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+service#androidx.work.multiprocess.RemoteWorkManagerService
+ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/1622eb2f3fe67322c1ff8951fc14517f/transformed/work-multiprocess-2.7.0/AndroidManifest.xml:26:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/drevsine/.gradle/caches/transforms-3/6fab24f9b2ee17c15502dcaff26fe9c7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+queries
+ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:20:5-22:15
+package#com.google.ar.core
+ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:21:9-54
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:21:18-51
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:27:9-29:41
+	android:value
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:29:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:28:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:31:9-37:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:34:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:36:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:37:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] /Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/AndroidManifest.xml:32:13-62
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/drevsine/.gradle/caches/transforms-3/974de84aef13637e751256adf92d10a4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/drevsine/.gradle/caches/transforms-3/a89d0a57977a8e00d1aca972d3c00ac9/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+=======
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+>>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
