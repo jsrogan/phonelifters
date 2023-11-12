@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+import androidx.navigation.compose.composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -19,6 +20,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.google.android.filament.utils.loadTexture
@@ -31,6 +33,36 @@ import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
 import io.github.sceneview.ar.node.PlacementMode
 
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+            val exercise = Exercise("Arm Curl", "bigtest.glb")
+            val exerciseMenu = ExerciseMenu(exercise)
+            val navController = rememberNavController()
+            val context = LocalContext.current
+            NavHost(navController, startDestination = "ExerciseMenu") {
+                composable("ExerciseMenu") {
+                    MainView(exerciseMenu, exerciseMenu.exercises, navController = navController)
+                    //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
+                }
+
+                composable("DisplayExercise")
+                {
+                    ARScreen(model = "bigtest", navController, context)
+                }
+
+
+                composable("PoseView"){
+                    PoseView(navController)
+                }
+            }
+        }
+    }
+}
+
+/*
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -188,7 +220,7 @@ LaunchedEffect(key1 = model){
 
 data class Models(var name:String,var imageId:Int)
 
-/*
+
 sources: https://github.com/princeku07/AR-Menu-App---Android-Jetpack-Compose-/tree/main,
 https://github.com/SceneView/sceneview-android/tree/main,
 https://www.mixamo.com/#/?page=1&query=bicep+curl,
@@ -200,7 +232,3 @@ https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/
 https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf,
 https://stackoverflow.com/a/54469912
  */
-
-
-
-
