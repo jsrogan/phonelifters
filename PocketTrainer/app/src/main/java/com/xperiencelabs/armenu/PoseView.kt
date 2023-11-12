@@ -151,9 +151,5 @@ https://developer.android.com/codelabs/camerax-getting-started#1,
 https://github.com/Pawandeep-prog/realtime_pose_detection_android/tree/main,
 https://www.geeksforgeeks.org/imageview-in-android-using-jetpack-compose/,
 https://developer.android.com/training/sharing/send#:~:text=Android%20uses%20the%20action%20ACTION_SEND,displays%20them%20to%20the%20user.,
-https://developer.android.com/codelabs/camerax-getting-started#1,
-https://stackoverflow.com/a/13977619,
-https://stackoverflow.com/a/14779939,
-https://developer.android.com/training/camerax/take-photo#kotlin,
-https://stackoverflow.com/a/73752855
+https://developer.android.com/codelabs/camerax-getting-started#1
  */
