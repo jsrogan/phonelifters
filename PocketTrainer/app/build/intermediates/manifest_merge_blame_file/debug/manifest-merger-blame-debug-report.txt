@@ -46,7 +46,6 @@
 25        android:protectionLevel="signature" />
 25-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 26
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
 27    <uses-permission android:name="com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 27-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 27-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
@@ -59,45 +58,45 @@
 31    </queries>
 32
 33    <application
-33-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:5:5-25:19
+33-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:5:5-25:19
 34        android:allowBackup="true"
-34-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:6:9-35
+34-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:6:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 35-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 36        android:dataExtractionRules="@xml/data_extraction_rules"
-36-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:7:9-65
+36-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:7:9-65
 37        android:debuggable="true"
 38        android:extractNativeLibs="false"
 39        android:fullBackupContent="@xml/backup_rules"
-39-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:8:9-54
+39-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:8:9-54
 40        android:icon="@mipmap/ic_launcher"
-40-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:9:9-43
+40-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:9:9-43
 41        android:label="@string/app_name"
-41-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:10:9-41
+41-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:10:9-41
 42        android:supportsRtl="true"
-42-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:11:9-35
+42-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:11:9-35
 43        android:testOnly="true"
 44        android:theme="@style/Theme.ARMenu" >
-44-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:12:9-44
+44-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:12:9-44
 45        <activity
-45-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:14:9-24:20
+45-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:14:9-24:20
 46            android:name="com.xperiencelabs.armenu.MainActivity"
-46-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:15:13-41
+46-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:15:13-41
 47            android:exported="true"
-47-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:16:13-36
+47-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:16:13-36
 48            android:label="@string/app_name"
-48-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:17:13-45
+48-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:17:13-45
 49            android:theme="@style/Theme.ARMenu" >
-49-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:18:13-48
+49-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:18:13-48
 50            <intent-filter>
-50-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:19:13-23:29
+50-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:19:13-23:29
 51                <action android:name="android.intent.action.MAIN" />
-51-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:17-69
-51-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:25-66
+51-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:17-69
+51-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:25-66
 52
 53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:17-77
-53-->/Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:27-74
+53-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:22:17-77
+53-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:22:27-74
 54            </intent-filter>
 55        </activity>
 56        <!--
@@ -111,74 +110,6 @@
 62-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:19:13-46
 63            android:value="optional" />
 63-->[io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:20:13-37
-=======
-27    <permission
-27-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-28        android:name="com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-28-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-29        android:protectionLevel="signature" />
-29-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-30
-31    <uses-permission android:name="com.xperiencelabs.armenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-31-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-31-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-35
-36    <application
-36-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:5:5-37:19
-37        android:allowBackup="true"
-37-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:6:9-35
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.9.0] /Users/drevsine/.gradle/caches/transforms-3/f0e8572080886e04503d6a274229d6f4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-39        android:dataExtractionRules="@xml/data_extraction_rules"
-39-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:7:9-65
-40        android:debuggable="true"
-41        android:extractNativeLibs="false"
-42        android:fullBackupContent="@xml/backup_rules"
-42-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:8:9-54
-43        android:icon="@mipmap/ic_launcher"
-43-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:9:9-43
-44        android:label="@string/app_name"
-44-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:10:9-41
-45        android:supportsRtl="true"
-45-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:11:9-35
-46        android:testOnly="true"
-47        android:theme="@style/Theme.ARMenu" >
-47-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:12:9-44
-48        <activity
-48-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:15:9-25:20
-49            android:name="com.xperiencelabs.armenu.MainActivity"
-49-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:16:13-41
-50            android:exported="true"
-50-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:17:13-36
-51            android:label="@string/app_name"
-51-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:18:13-45
-52            android:theme="@style/Theme.ARMenu" >
-52-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:19:13-48
-53            <intent-filter>
-53-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:13-24:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:17-69
-54-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:17-77
-56-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:27-74
-57            </intent-filter>
-58        </activity>
-59        <activity
-59-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:26:9-36:20
-60            android:name="com.xperiencelabs.armenu.PoseActivity"
-60-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:27:13-41
-61            android:exported="true"
-61-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:28:13-36
-62            android:label="@string/app_name"
-62-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:29:13-45
-63            android:theme="@style/Theme.AppCompat" >
-63-->/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:30:13-51
->>>>>>> Stashed changes:PocketTrainer/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
 64
 65        <activity
 65-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39

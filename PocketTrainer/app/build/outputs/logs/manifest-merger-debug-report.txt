@@ -1,16 +1,9 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-=======
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:17:1-29:12
 MERGED from [androidx.compose.material:material:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/3ebfe64175c7e84302d35bcc173eae06/transformed/material-1.2.0/AndroidManifest.xml:17:1-23:12
@@ -105,53 +98,28 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/drevsine/.gradle/caches/transf
 MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/drevsine/.gradle/caches/transforms-3/b6a8086041d6c842422f4c36b396f3be/transformed/ui-util-1.3.3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.gradle/caches/transforms-3/7c53cb29818fa8bd5193543cf3df30e6/transformed/fuel-android-2.3.1/AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-	package
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-	android:versionName
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-=======
-MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] /Users/drevsine/.gradle/caches/transforms-3/e7d6bf4f3acabdc42d3a8036b0ac42b9/transformed/tensorflow-lite-task-base-0.2.0/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
 	xmlns:tools
 		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-=======
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
 	xmlns:android
 		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:11-69
 application
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:5:5-25:19
-=======
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:5:5-37:19
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:11:5-21:19
 MERGED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:11:5-21:19
 MERGED from [androidx.compose.ui:ui-tooling:1.2.0] /Users/drevsine/.gradle/caches/transforms-3/b03a1f6e39e899003ebaa910c957cb49/transformed/ui-tooling-1.2.0/AndroidManifest.xml:23:5-27:19
@@ -221,57 +189,25 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/
 	android:dataExtractionRules
 		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.xperiencelabs.armenu.MainActivity
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:14:9-24:20
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:14:9-24:20
 	android:label
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:17:13-45
 	android:exported
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:16:13-36
 	android:theme
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:18:13-48
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:18:13-48
 	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml:22:27-74
-=======
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:15:9-25:20
-	android:label
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:18:13-45
-	android:exported
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:17:13-36
-	android:theme
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:19:13-48
-	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:16:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:20:13-24:29
-action#android.intent.action.MAIN
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:17-69
-	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:21:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:17-77
-	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:23:27-74
-activity#com.xperiencelabs.armenu.PoseActivity
-ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:26:9-36:20
-	android:label
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:29:13-45
-	android:exported
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:28:13-36
-	android:theme
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:30:13-51
-	android:name
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:27:13-41
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
+		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
@@ -464,31 +400,18 @@ MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.grad
 MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] /Users/drevsine/.gradle/caches/transforms-3/7c53cb29818fa8bd5193543cf3df30e6/transformed/fuel-android-2.3.1/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/9d0fe015a2e68ffc589138fd81cc7b5b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/drevsine/.gradle/caches/transforms-3/64741e2516d4bfdb9df266e99708faa9/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-=======
 INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
 	android:targetSdkVersion
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/ARCore Demo Code/app/src/main/AndroidManifest.xml
-=======
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 		ADDED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
-		MERGED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
-		MERGED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt
 uses-permission#android.permission.CAMERA
 ADDED from [io.github.sceneview:arsceneview:0.10.0] /Users/drevsine/.gradle/caches/transforms-3/78691cc278330e5be1f9988f8e77cd1c/transformed/arsceneview-0.10.0/AndroidManifest.xml:8:5-65
 	android:name
@@ -977,7 +900,6 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/drevsine/.gradle/caches/transforms-3/5c920ebb4280b76fe2dbcfd8c33163e5/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-<<<<<<< Updated upstream:ARCore Demo Code/app/build/outputs/logs/manifest-merger-debug-report.txt
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 	android:exported
@@ -986,11 +908,3 @@ ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/tra
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/drevsine/.gradle/caches/transforms-3/95c3e78be25f0f21f40d3c4fcc351c92/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-=======
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/src/main/AndroidManifest.xml:2:1-39:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
->>>>>>> Stashed changes:PocketTrainer/app/build/outputs/logs/manifest-merger-debug-report.txt

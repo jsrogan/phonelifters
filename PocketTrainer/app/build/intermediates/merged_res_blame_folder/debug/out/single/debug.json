@@ -12,6 +12,10 @@
         "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/layout_activity_pose.xml.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/layout/activity_pose.xml"
+    },
+    {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -52,6 +56,10 @@
         "source": "com.xperiencelabs.armenu.app-main-69:/drawable/baseline_arrow_forward_ios_24.xml"
     },
     {
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_back_button.xml.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/back_button.xml"
+    },
+    {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -68,12 +76,16 @@
         "source": "com.xperiencelabs.armenu.app-main-69:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_pizza.webp.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/pizza.webp"
+    },
+    {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/xml_backup_rules.xml.flat",
         "source": "com.xperiencelabs.armenu.app-main-69:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_pizza.webp.flat",
-        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/pizza.webp"
+        "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_start_exercise_button.xml.flat",
+        "source": "com.xperiencelabs.armenu.app-main-69:/drawable/start_exercise_button.xml"
     },
     {
         "merged": "com.xperiencelabs.armenu.app-merged_res-67:/drawable_baseline_arrow_back_ios_24.xml.flat",

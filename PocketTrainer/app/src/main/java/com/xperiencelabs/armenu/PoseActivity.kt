@@ -1,7 +1,7 @@
 package com.xperiencelabs.armenu
 
 //package de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture needed?
-
+/*
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
@@ -140,7 +140,6 @@ class PoseActivity : AppCompatActivity() {
     }
 }
 
-/*
 sources: https://www.youtube.com/watch?v=pPVZambOuG8,
 https://github.com/YanneckReiss/JetpackComposeCameraXShowcase/blob/master/app/src/main/kotlin/de/yanneckreiss/cameraxtutorial/MainActivity.kt,
 https://developer.android.com/codelabs/camerax-getting-started#1,
@@ -174,5 +173,4 @@ https://lightrun.com/answers/objectbox-objectbox-java-flatbuffers-version-confli
 https://developers.google.com/ml-kit/vision/pose-detection/android,
 https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart,
 https://stackoverflow.com/a/56029604,
-
  */

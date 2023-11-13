@@ -21,8 +21,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.LocalContext
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.google.android.filament.utils.loadTexture
 import com.google.ar.core.Config
 import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
@@ -38,7 +40,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            val exercise = Exercise("Arm Curl", "bigtest.glb")
+            val exercise = Exercise("Arm Curl", "bigtest")
             val exerciseMenu = ExerciseMenu(exercise)
             val navController = rememberNavController()
             val context = LocalContext.current
@@ -48,9 +50,11 @@ class MainActivity : ComponentActivity() {
                     //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
                 }
 
-                composable("DisplayExercise")
+                composable("DisplayExercise/${exercise.getModel()}", arguments = listOf(navArgument("modelId") { type = NavType.StringType }))
                 {
-                    ARScreen(model = "bigtest", navController, context)
+                        backStackEntry ->
+                    ARScreen(backStackEntry.arguments?.getString("modelId"), navController, context)
+                    //ARScreen(model = modelId, navController, context)
                 }
 
 
@@ -230,5 +234,6 @@ https://blender.stackexchange.com/questions/68001/working-with-very-large-object
 https://github.com/SceneView/sceneview-android,
 https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/scale.html,
 https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf,
-https://stackoverflow.com/a/54469912
+https://stackoverflow.com/a/54469912,
+https://www.youtube.com/watch?v=rb5m0Py8y1s
  */

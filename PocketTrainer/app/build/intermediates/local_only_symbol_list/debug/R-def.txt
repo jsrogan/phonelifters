@@ -7,6 +7,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable back_button
 drawable baseline_arrow_back_ios_24
 drawable baseline_arrow_forward_ios_24
 drawable burger
@@ -17,6 +18,10 @@ drawable instant
 drawable momos
 drawable pizza
 drawable ramen
+drawable start_exercise_button
+id imageView
+id textureView
+layout activity_pose
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

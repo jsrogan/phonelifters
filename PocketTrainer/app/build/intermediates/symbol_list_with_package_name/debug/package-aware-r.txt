@@ -659,6 +659,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable back_button
 drawable baseline_arrow_back_ios_24
 drawable baseline_arrow_forward_ios_24
 drawable btn_checkbox_checked_mtrl
@@ -712,6 +713,7 @@ drawable pizza
 drawable ramen
 drawable sceneview_fit_to_scan
 drawable sceneview_info_background
+drawable start_exercise_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -819,6 +821,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id inspection_slot_table_set
 id is_pooling_container_tag
@@ -894,6 +897,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textureView
 id time
 id title
 id titleDividerNoCustom
@@ -955,6 +959,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_pose
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone

@@ -135,7 +135,7 @@ fun CircularImage(
 }
 
 @Composable
-fun ARScreen(model:String, navHostController: NavHostController, context: Context) {
+fun ARScreen(model:String?, navHostController: NavHostController, context: Context) {
     val nodes = remember {
         mutableListOf<ArNode>()
     }
