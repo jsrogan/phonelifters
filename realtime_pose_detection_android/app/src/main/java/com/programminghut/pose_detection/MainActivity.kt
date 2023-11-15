@@ -16,6 +16,7 @@ import android.util.Log
 import android.view.Surface
 import android.view.TextureView
 import android.widget.ImageView
+import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import com.programminghut.pose_detection.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.ImageProcessor
@@ -82,11 +83,23 @@ class MainActivity : AppCompatActivity() {
                 var x = 0
 
                 Log.d("output__", outputFeature0.size.toString())
+                var currentRow = mutableListOf<Float>()
                 while(x <= 49){
                     if(outputFeature0.get(x+2) > 0.45){
                         canvas.drawCircle(outputFeature0.get(x+1)*w, outputFeature0.get(x)*h, 10f, paint)
+                        //append to CSV file
+
                     }
+
+                    val a = outputFeature0.get(x+1)*w
+                    val b = outputFeature0.get(x)*h
+                    currentRow.add(a)
+                    currentRow.add(b)
                     x+=3
+                }
+
+                csvWriter().open("training.csv") {
+                    writeRow(currentRow)
                 }
 
                 imageView.setImageBitmap(mutable)
