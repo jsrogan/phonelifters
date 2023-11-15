@@ -147,16 +147,14 @@ fun ARScreen(model:String, navHostController: NavHostController, context: Contex
     }
     Box(modifier = Modifier.fillMaxSize()){
         ARScene(
-            //ARScene automatically asks for camera permission, as scene in documentation
             modifier = Modifier.fillMaxSize(),
             nodes = nodes,
             planeRenderer = true,
             onCreate = {arSceneView ->
                 arSceneView.lightEstimationMode = Config.LightEstimationMode.DISABLED
                 arSceneView.planeRenderer.isShadowReceiver = false
-                //taking in environment
                 modelNode.value = ArModelNode(arSceneView.engine,PlacementMode.INSTANT).apply {
-                    loadModelGlbAsync( //finding model
+                    loadModelGlbAsync(
                         glbFileLocation = "models/${model}.glb",
                         scaleToUnits = 0.8f,
                         autoAnimate = true,
@@ -173,7 +171,7 @@ fun ARScreen(model:String, navHostController: NavHostController, context: Contex
                     }
 
                 }
-                nodes.add(modelNode.value!!) //adding model to the screen
+                nodes.add(modelNode.value!!)
             },
             onSessionCreate = {
                 planeRenderer.isVisible = false
