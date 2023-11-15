@@ -1,9 +1,9 @@
-#Sun Nov 12 22:23:21 EST 2023
-base.0=/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.3=/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-base.4=/Users/drevsine/Desktop/GitHub/phonelifters/PocketTrainer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Tue Nov 14 18:15:57 EST 2023
+base.0=C\:\\home\\jsrogan\\441\\phonelifters\\phonelifters\\PocketTrainer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\home\\jsrogan\\441\\phonelifters\\phonelifters\\PocketTrainer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\home\\jsrogan\\441\\phonelifters\\phonelifters\\PocketTrainer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=C\:\\home\\jsrogan\\441\\phonelifters\\phonelifters\\PocketTrainer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.4=C\:\\home\\jsrogan\\441\\phonelifters\\phonelifters\\PocketTrainer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

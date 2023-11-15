@@ -60,7 +60,7 @@ class DisplayExercise : ComponentActivity() {
                 ) {
                     Box(modifier = Modifier.fillMaxSize()){
                         val currentModel = remember {
-                            mutableStateOf("bigtest")
+                            mutableStateOf("")
                         }
                         //ARScreen(currentModel.value)
                         Menu(modifier = Modifier.align(Alignment.BottomCenter)){
@@ -190,7 +190,7 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
                             )
                     }
                 }
-                Text("Arm Curl Demonstration", color = arsenic, fontSize = 30.sp)
+                Text("AR Exercise Demonstration", color = arsenic, fontSize = 30.sp)
             }
 
             Button(onClick = {

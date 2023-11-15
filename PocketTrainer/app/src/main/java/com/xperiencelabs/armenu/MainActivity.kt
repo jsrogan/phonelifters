@@ -40,8 +40,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            val exercise = Exercise("Arm Curl", "bigtest")
-            val exerciseMenu = ExerciseMenu(exercise)
+            val armCurl = Exercise("Arm Curl", "bigtest")
+            val exerciseMenu = ExerciseMenu(armCurl)
             val navController = rememberNavController()
             val context = LocalContext.current
             NavHost(navController, startDestination = "ExerciseMenu") {
@@ -50,12 +50,16 @@ class MainActivity : ComponentActivity() {
                     //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
                 }
 
-                composable("DisplayExercise/${exercise.getModel()}", arguments = listOf(navArgument("modelId") { type = NavType.StringType }))
+                composable("DisplayExercise/{modelId}",
+                    arguments = listOf(navArgument("modelId") {
+
+                    }))
                 {
                         backStackEntry ->
                     ARScreen(backStackEntry.arguments?.getString("modelId"), navController, context)
                     //ARScreen(model = modelId, navController, context)
                 }
+
 
 
                 composable("PoseView"){

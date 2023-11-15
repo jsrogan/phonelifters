@@ -4,7 +4,7 @@
             "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-65:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/drevsine/.gradle/caches/transforms-3/31bf9370f1a11ec22e1078b8719680df/transformed/work-runtime-2.7.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\jsr11\\.gradle\\caches\\transforms-3\\31bf9370f1a11ec22e1078b8719680df\\transformed\\work-runtime-2.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/drevsine/.gradle/caches/transforms-3/57373ae1bc1c42a287039e8b282bf96a/transformed/appcompat-1.5.1/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\jsr11\\.gradle\\caches\\transforms-3\\57373ae1bc1c42a287039e8b282bf96a\\transformed\\appcompat-1.5.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

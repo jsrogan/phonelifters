@@ -4,7 +4,7 @@
             "outputFile": "com.xperiencelabs.armenu.app-mergeDebugResources-65:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/Users/drevsine/.gradle/caches/transforms-3/351fb5d6d5893865b4fdafcb3af978ff/transformed/core-1.37.0/res/values-he/values.xml",
+                    "source": "C:\\Users\\jsr11\\.gradle\\caches\\transforms-3\\351fb5d6d5893865b4fdafcb3af978ff\\transformed\\core-1.37.0\\res\\values-he\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",

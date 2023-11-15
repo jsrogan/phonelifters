@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.romainguy:kotlin-math-jvm:1.5.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.romainguy/kotlin-math-jvm/1.5.3/ae5814cd9f5031b34e4d066682b9106bfe6bed11/kotlin-math-jvm-1.5.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.romainguy/kotlin-math-jvm/1.5.3/8507d5786e45e94b670296f5725451a6ee8a5d60/kotlin-math-jvm-1.5.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.romainguy/kotlin-math-jvm/1.5.3/87bf7e1a993cdb2c9d431d1dddbd85959de3ff3/kotlin-math-jvm-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

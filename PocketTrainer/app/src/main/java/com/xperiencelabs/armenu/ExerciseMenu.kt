@@ -61,6 +61,10 @@ class ExerciseMenu(e: Exercise)
 {
     var exercises = arrayOf(e)
 
+    fun addExercise(e: Exercise){
+        exercises = exercises.plus(e)
+    }
+
     /*
     fun getExercise(name: String) : Exercise?
     {
@@ -88,8 +92,9 @@ class ExerciseMenu(e: Exercise)
                 {
                     //Text(exercise.exerciseName, color = lightBlue, fontSize = 30.sp, textAlign = TextAlign.Center)
                     exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
-
-                    IconButton(onClick = { navController.navigate("DisplayExercise/${exercise.getModel()}") }) {
+                    val currentExercise = exercise.getModel()
+                    val navString = "DisplayExercise/$currentExercise"
+                    IconButton(onClick = { navController.navigate(navString) }) {
                         Icon(imageVector = ImageVector.vectorResource(R.drawable.start_exercise_button),
                             contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
                             modifier = Modifier.scale(1.4f),
