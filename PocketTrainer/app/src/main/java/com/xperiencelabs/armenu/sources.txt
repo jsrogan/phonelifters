@@ -117,3 +117,8 @@ https://www.baeldung.com/kotlin/initialize-map,
 https://www.geeksforgeeks.org/searchview-in-android-with-kotlin/,
 https://kotlinlang.org/docs/control-flow.html#for-loops,
 https://developer.android.com/develop/ui/views/components/menus
+
+miscellaneous
+https://www.simplilearn.com/how-to-revert-commit-in-git-article
+https://stackoverflow.com/a/1789374
+https://gist.github.com/myusuf3/7f645819ded92bda6677 (look at later)
