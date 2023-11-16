@@ -84,23 +84,40 @@ class MainActivity : AppCompatActivity() {
 
                 Log.d("output__", outputFeature0.size.toString())
                 var currentRow = mutableListOf<Float>()
+                var a = 0f
+                var b = 0f
                 while(x <= 49){
                     if(outputFeature0.get(x+2) > 0.45){
                         canvas.drawCircle(outputFeature0.get(x+1)*w, outputFeature0.get(x)*h, 10f, paint)
                         //append to CSV file
+                        a = outputFeature0.get(x+1)*w
+                        b = outputFeature0.get(x)*h
 
                     }
 
+                    else
+                    {
+                        a = 0f
+                        b = 0f
+                    }
+
+                    /*
                     val a = outputFeature0.get(x+1)*w
                     val b = outputFeature0.get(x)*h
+                    currentRow.add(a)
+                    currentRow.add(b)
+                     */
                     currentRow.add(a)
                     currentRow.add(b)
                     x+=3
                 }
 
+
                 csvWriter().open("training.csv") {
                     writeRow(currentRow)
                 }
+
+
 
                 imageView.setImageBitmap(mutable)
             }
@@ -152,5 +169,16 @@ class MainActivity : AppCompatActivity() {
 }
 
 /*
-source: https://github.com/Pawandeep-prog/realtime_pose_detection_android
+sources: https://github.com/Pawandeep-prog/realtime_pose_detection_android,
+https://github.com/doyaaaaaken/kotlin-csv,
+https://www.javatpoint.com/kotlin-android-read-and-write-internal-storage,
+https://www.educba.com/kotlin-empty-list/,
+https://developer.android.com/training/data-storage/shared/documents-files,
+https://www.baeldung.com/kotlin/csv-files,
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/java.io.-file/buffered-writer.html,
+https://support.google.com/android/answer/9431959?hl=en,
+https://medium.com/@sergei.rybalkin/upload-file-to-google-drive-with-kotlin-931cec5252c1,
+https://github.com/rybalkinsd/kohttp,
+https://developers.google.com/identity/protocols/oauth2,
+https://stackoverflow.com/a/72481029
  */
