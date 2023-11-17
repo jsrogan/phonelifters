@@ -1,6 +1,7 @@
 package com.programminghut.pose_detection
 
 import android.annotation.SuppressLint
+import androidx.activity.ComponentActivity
 import android.content.Context
 import android.content.pm.PackageManager
 import android.graphics.*
@@ -16,6 +17,7 @@ import android.util.Log
 import android.view.Surface
 import android.view.TextureView
 import android.widget.ImageView
+import androidx.core.app.ActivityCompat.requestPermissions
 import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import com.programminghut.pose_detection.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
 import org.tensorflow.lite.DataType
@@ -23,6 +25,7 @@ import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.image.ops.ResizeOp
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
+import java.io.FileWriter
 
 class MainActivity : AppCompatActivity() {
 
@@ -82,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                 var w = bitmap.width
                 var x = 0
 
-                Log.d("output__", outputFeature0.size.toString())
+                //Log.d("output__", outputFeature0.size.toString())
                 var currentRow = mutableListOf<Float>()
                 var a = 0f
                 var b = 0f
@@ -112,10 +115,17 @@ class MainActivity : AppCompatActivity() {
                     x+=3
                 }
 
+                //for (row in currentRow)
+                //{
+                    Log.d("coordinates", currentRow.toString())
+                //}
 
+                /*
                 csvWriter().open("training.csv") {
                     writeRow(currentRow)
                 }
+
+                 */
 
 
 
@@ -180,5 +190,14 @@ https://support.google.com/android/answer/9431959?hl=en,
 https://medium.com/@sergei.rybalkin/upload-file-to-google-drive-with-kotlin-931cec5252c1,
 https://github.com/rybalkinsd/kohttp,
 https://developers.google.com/identity/protocols/oauth2,
-https://stackoverflow.com/a/72481029
+https://stackoverflow.com/a/72481029,
+https://proandroiddev.com/my-confusion-related-to-android-storage-management-related-apis-ed59c69b567b,
+https://proandroiddev.com/everything-about-storage-on-android-2e9154882414,
+https://developers.google.com/android/reference/com/google/android/gms/ads/nativead/MediaView,
+https://tdcolvin.medium.com/demystifying-internal-vs-external-storage-in-modern-android-c9c31cb8eeec,
+https://medium.com/swlh/sample-for-android-storage-access-framework-aka-scoped-storage-for-basic-use-cases-3ee4fee404fc,
+https://www.makeuseof.com/android-grant-permissions-with-adb/,
+https://www.programiz.com/kotlin-programming/for-loop,
+https://stackoverflow.com/a/7718219,
+https://support.google.com/docs/answer/6325535?hl=en&co=GENIE.Platform%3DDesktop
  */
