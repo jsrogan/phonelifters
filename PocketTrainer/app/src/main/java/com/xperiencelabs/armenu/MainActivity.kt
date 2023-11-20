@@ -41,7 +41,11 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val armCurl = Exercise("Arm Curl", "bigtest")
+            val squat = Exercise("Squat", "revised_squat")
+            val swing = Exercise("Kettlebell Swing", "revised_kettlebell_swing")
             val exerciseMenu = ExerciseMenu(armCurl)
+            exerciseMenu.addExercise(squat)
+            exerciseMenu.addExercise(swing)
             val navController = rememberNavController()
             val context = LocalContext.current
             NavHost(navController, startDestination = "ExerciseMenu") {

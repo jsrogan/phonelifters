@@ -87,10 +87,9 @@ class ExerciseMenu(e: Exercise)
                 Text("Pick an Exercise", color = arsenic, fontSize = 30.sp, textAlign = TextAlign.Center)
             }
 
-            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
-                for (exercise: Exercise in exerciseList)
-                {
-                    //Text(exercise.exerciseName, color = lightBlue, fontSize = 30.sp, textAlign = TextAlign.Center)
+            for (exercise: Exercise in exerciseList)
+            {
+                Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                     exercise.exerciseName?.let { Text(it, fontSize = 17.sp, modifier = Modifier.padding(4.dp, 8.dp, 4.dp, 0.dp)) }
                     val currentExercise = exercise.getModel()
                     val navString = "DisplayExercise/$currentExercise"
@@ -101,9 +100,12 @@ class ExerciseMenu(e: Exercise)
                             //tint = Color.Green
                         )
                     }
-
                 }
+                //Text(exercise.exerciseName, color = lightBlue, fontSize = 30.sp, textAlign = TextAlign.Center)
+
+
             }
+
         }
     }
 
