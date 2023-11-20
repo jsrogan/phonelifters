@@ -41,8 +41,8 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val armCurl = Exercise("Arm Curl", "bigtest")
-            val squat = Exercise("Squat", "revised_squat")
-            val swing = Exercise("Kettlebell Swing", "revised_kettlebell_swing")
+            val squat = Exercise("Squat", "squat3")
+            val swing = Exercise("Kettlebell Swing", "kbswing4")
             val exerciseMenu = ExerciseMenu(armCurl)
             exerciseMenu.addExercise(squat)
             exerciseMenu.addExercise(swing)
