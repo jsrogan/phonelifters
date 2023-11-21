@@ -1,81 +1,46 @@
-package com.xperiencelabs.armenu
+package com.phonelifters.armenu
 
-import android.content.res.Resources
+import android.content.ActivityNotFoundException
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+//import androidx.compose.foundation.layout.RowScopeInstance.align
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
-import androidx.navigation.compose.composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.platform.LocalContext
-import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
-import com.google.android.filament.utils.loadTexture
+import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat.startActivity
+import androidx.navigation.NavHostController
 import com.google.ar.core.Config
-import com.xperiencelabs.armenu.ui.theme.ARMenuTheme
-import com.xperiencelabs.armenu.ui.theme.Translucent
-import dev.romainguy.kotlin.math.Quaternion
+import com.phonelifters.armenu.ui.theme.ARMenuTheme
+import com.phonelifters.armenu.ui.theme.HeavenWhite
+import com.phonelifters.armenu.ui.theme.Translucent
+import com.phonelifters.armenu.ui.theme.arsenic
 import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
 import io.github.sceneview.ar.node.PlacementMode
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        setContent {
-            val armCurl = Exercise("Arm Curl", "bigtest")
-            val squat = Exercise("Squat", "squat3")
-            val swing = Exercise("Kettlebell Swing", "kbswing4")
-            val exerciseMenu = ExerciseMenu(armCurl)
-            exerciseMenu.addExercise(squat)
-            exerciseMenu.addExercise(swing)
-            val navController = rememberNavController()
-            val context = LocalContext.current
-            NavHost(navController, startDestination = "ExerciseMenu") {
-                composable("ExerciseMenu") {
-                    MainView(exerciseMenu, exerciseMenu.exercises, navController = navController)
-                    //exerciseMenu.ShowExercises(index = 0, exerciseList = exerciseMenu.exercises, navController = navController)
-                }
-
-                composable("DisplayExercise/{modelId}",
-                    arguments = listOf(navArgument("modelId") {
-
-                    }))
-                {
-                        backStackEntry ->
-                    ARScreen(backStackEntry.arguments?.getString("modelId"), navController, context)
-                    //ARScreen(model = modelId, navController, context)
-                }
-
-
-
-                composable("PoseView"){
-                    PoseView(navController)
-                }
-            }
-        }
-    }
-}
-
-/*
-class MainActivity : ComponentActivity() {
+class DisplayExercise : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -86,16 +51,16 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                  Box(modifier = Modifier.fillMaxSize()){
-                      val currentModel = remember {
-                          mutableStateOf("bigtest")
-                      }
-                      ARScreen(currentModel.value)
-                      Menu(modifier = Modifier.align(Alignment.BottomCenter)){
-                          currentModel.value = it
-                      }
+                    Box(modifier = Modifier.fillMaxSize()){
+                        val currentModel = remember {
+                            mutableStateOf("")
+                        }
+                        //ARScreen(currentModel.value)
+                        Menu(modifier = Modifier.align(Alignment.BottomCenter)){
+                            currentModel.value = it
+                        }
 
-                  }
+                    }
                 }
             }
         }
@@ -163,7 +128,7 @@ fun CircularImage(
 }
 
 @Composable
-fun ARScreen(model:String) {
+fun ARScreen(model:String?, navHostController: NavHostController, context: Context) {
     val nodes = remember {
         mutableListOf<ArNode>()
     }
@@ -206,42 +171,88 @@ fun ARScreen(model:String) {
             }
         )
 
-        /*
         if(placeModelButton.value){
+            Column(modifier = Modifier
+                .padding(8.dp, 0.dp, 8.dp, 0.dp)
+                .background(color = HeavenWhite)) {
+                Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
+                    IconButton(onClick = { navHostController.popBackStack() }) {
+                            Icon(imageVector = ImageVector.vectorResource(R.drawable.back_button),
+                                contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                                modifier = Modifier.scale(1.4f),
+                            )
+                    }
+                }
+                Text("AR Exercise Demonstration", color = arsenic, fontSize = 30.sp)
+            }
+
             Button(onClick = {
-                modelNode.value?.anchor()
-            }, modifier = Modifier.align(Alignment.Center)) {
-                Text(text = "Anchor")
+                //val intent = Intent(context, PoseActivity::class.java)
+                //context.startActivity(intent)
+                //navHostController.navigate("PoseView")
+                val poseIntent = Intent().apply {
+                    action = "com.programminghut.pose_detection"
+                }
+
+                // Try to invoke the intent.
+                try {
+                    startActivity(context, poseIntent, null)
+                } catch (e: ActivityNotFoundException) {
+                    Log.e("Error", "Activity not found")
+                }
+            }, modifier = Modifier.align(Alignment.BottomCenter)) {
+                Text(text = "Try exercise myself")
             }
         }
-        */
 
     }
 
 
-LaunchedEffect(key1 = model){
-    modelNode.value?.loadModelGlbAsync(
-        glbFileLocation = "models/${model}.glb",
-        scaleToUnits = 0.8f
-    )
-    Log.e("errorloading","ERROR LOADING MODEL")
-}
+    LaunchedEffect(key1 = model){
+        modelNode.value?.loadModelGlbAsync(
+            glbFileLocation = "models/${model}.glb",
+            scaleToUnits = 0.8f
+        )
+        Log.e("errorloading","ERROR LOADING MODEL")
+    }
 
 }
 
 
 data class Models(var name:String,var imageId:Int)
+/*
+class DisplayExercise {
+    ARMenuTheme
+    {
+        // A surface container using the 'background' color from the theme
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colors.background
+        ) {
+            Box(modifier = Modifier.fillMaxSize()) {
+                val currentModel = remember {
+                    mutableStateOf("bigtest")
+                }
+                ARScreen(currentModel.value)
+                Menu(modifier = Modifier.align(Alignment.BottomCenter)) {
+                    currentModel.value = it
+                }
 
+            }
+        }
+    }
+}
+ */
 
-sources: https://github.com/princeku07/AR-Menu-App---Android-Jetpack-Compose-/tree/main,
-https://github.com/SceneView/sceneview-android/tree/main,
-https://www.mixamo.com/#/?page=1&query=bicep+curl,
-https://products.aspose.app/3d/conversion/dae-to-glb,
-https://github.com/SceneView/sceneform-android/blob/master/samples/ar-model-viewer/build.gradle,
-https://blender.stackexchange.com/questions/68001/working-with-very-large-objects,
-https://github.com/SceneView/sceneview-android,
-https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/scale.html,
-https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf,
-https://stackoverflow.com/a/54469912,
-https://www.youtube.com/watch?v=rb5m0Py8y1s
+/*
+sources: https://stackoverflow.com/a/72898717,
+https://developer.android.com/reference/android/text/Layout.Alignment,
+https://stackoverflow.com/a/22966322,
+https://stackoverflow.com/a/64470532,
+https://stackoverflow.com/a/4186097,
+https://developer.android.com/training/basics/intents/filters,
+https://developer.android.com/guide/app-actions/action-schema,
+https://developer.android.com/training/basics/intents/sending,
+https://developer.android.com/training/basics/intents/filters,
+https://stackoverflow.com/a/76680021
  */

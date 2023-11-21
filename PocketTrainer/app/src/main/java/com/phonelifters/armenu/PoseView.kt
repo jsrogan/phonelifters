@@ -1,14 +1,6 @@
 //package de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture needed?
-package com.xperiencelabs.armenu
+package com.phonelifters.armenu
 
-import android.Manifest
-import android.content.ContentValues
-import android.content.Context
-import android.content.Intent
-import android.content.pm.PackageManager
-import android.os.Build
-import android.os.Bundle
-import android.provider.MediaStore
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -23,7 +15,6 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -34,18 +25,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.PermissionChecker
 import androidx.navigation.NavHostController
 import com.google.ar.core.Config
-import com.xperiencelabs.armenu.ui.theme.HeavenWhite
-import com.xperiencelabs.armenu.ui.theme.arsenic
+import com.phonelifters.armenu.ui.theme.HeavenWhite
+import com.phonelifters.armenu.ui.theme.arsenic
 import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
 import io.github.sceneview.ar.node.PlacementMode
-import java.nio.ByteBuffer
-import java.text.SimpleDateFormat
-import java.util.Locale
 
 
 @Composable

@@ -1,4 +1,4 @@
-package com.xperiencelabs.armenu
+package com.phonelifters.armenu
 
 import org.junit.Test
 

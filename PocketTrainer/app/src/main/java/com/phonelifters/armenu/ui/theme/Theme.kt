@@ -1,4 +1,4 @@
-package com.xperiencelabs.armenu.ui.theme
+package com.phonelifters.armenu.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
