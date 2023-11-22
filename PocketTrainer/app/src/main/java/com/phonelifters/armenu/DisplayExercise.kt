@@ -258,5 +258,13 @@ https://developer.android.com/training/basics/intents/filters,
 https://developer.android.com/guide/app-actions/action-schema,
 https://developer.android.com/training/basics/intents/sending,
 https://developer.android.com/training/basics/intents/filters,
-https://stackoverflow.com/a/76680021
+https://stackoverflow.com/a/76680021,
+https://www.youtube.com/watch?v=tTnDCq2_kgg,
+https://stackoverflow.com/a/11008893,
+https://stackoverflow.com/a/12315939,
+https://developer.android.com/reference/android/content/Intent.html,
+https://developer.android.com/guide/app-actions/custom-intents,
+https://stackoverflow.com/a/22396628,
+https://developer.android.com/reference/kotlin/android/content/Context#getpackagemanager,
+https://developer.android.com/reference/kotlin/android/content/Context#getPackageManager()
  */
