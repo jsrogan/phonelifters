@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.xperiencelabs.armenu'
+    namespace 'com.phonelifters.armenu'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.xperiencelabs.armenu"
+        applicationId "com.phonelifters.armenu"
         minSdk 29
         targetSdk 33
         versionCode 1

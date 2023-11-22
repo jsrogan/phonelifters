@@ -1,5 +1,6 @@
 package com.phonelifters.armenu
 
+import android.app.PendingIntent.getActivity
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
@@ -39,6 +40,7 @@ import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.node.ArModelNode
 import io.github.sceneview.ar.node.ArNode
 import io.github.sceneview.ar.node.PlacementMode
+import android.content.pm.PackageManager
 
 class DisplayExercise : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -190,14 +192,16 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
                 //val intent = Intent(context, PoseActivity::class.java)
                 //context.startActivity(intent)
                 //navHostController.navigate("PoseView")
-                val poseIntent = Intent().apply {
-                    action = "com.programminghut.pose_detection"
-                }
+                val poseIntent = context.getPackageManager().getLaunchIntentForPackage("com.phonelifters.armenu")
+//                val poseIntent = Intent().apply {
+//                    action = "com.programminghut.pose_detection"
+//                }
 
                 // Try to invoke the intent.
-                try {
+                if(poseIntent != null){
                     startActivity(context, poseIntent, null)
-                } catch (e: ActivityNotFoundException) {
+                }
+                else{
                     Log.e("Error", "Activity not found")
                 }
             }, modifier = Modifier.align(Alignment.BottomCenter)) {

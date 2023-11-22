@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <package android:name="com.programminghut.pose_detection" />
+        <package android:name="com.phonelifters.pose_detection" />
     </queries>
 
     <application
@@ -25,6 +25,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".DisplayExercise"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.phonelifters.pose_detection" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
 
     </application>
 
