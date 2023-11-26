@@ -2,6 +2,7 @@ package com.phonelifters.armenu
 
 import android.app.PendingIntent.getActivity
 import android.content.ActivityNotFoundException
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -192,18 +193,23 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
                 //val intent = Intent(context, PoseActivity::class.java)
                 //context.startActivity(intent)
                 //navHostController.navigate("PoseView")
-                val poseIntent = context.getPackageManager().getLaunchIntentForPackage("com.phonelifters.armenu")
+                //val poseIntent = context.getPackageManager().getLaunchIntentForPackage("com.phonelifters.armenu")
 //                val poseIntent = Intent().apply {
 //                    action = "com.programminghut.pose_detection"
 //                }
 
-                // Try to invoke the intent.
-                if(poseIntent != null){
+                //Log.d("apps", context.packageManager.getInstalledApplications(0).toString())
+                //val poseIntent = Intent("com.phonelifters.pose_detection")
+                //val results = context.packageManager.queryIntentActivities(poseIntent, 0)
+                //poseIntent.component = ComponentName(results[0].activityInfo.packageName, results[0].activityInfo.name)
+                //startActivity(context, poseIntent, null)
+                val poseIntent = context.packageManager.getLaunchIntentForPackage("com.phonelifters.pose_detection")
+
+                if (poseIntent != null)
+                {
                     startActivity(context, poseIntent, null)
                 }
-                else{
-                    Log.e("Error", "Activity not found")
-                }
+
             }, modifier = Modifier.align(Alignment.BottomCenter)) {
                 Text(text = "Try exercise myself")
             }
@@ -266,5 +272,8 @@ https://developer.android.com/reference/android/content/Intent.html,
 https://developer.android.com/guide/app-actions/custom-intents,
 https://stackoverflow.com/a/22396628,
 https://developer.android.com/reference/kotlin/android/content/Context#getpackagemanager,
-https://developer.android.com/reference/kotlin/android/content/Context#getPackageManager()
+https://developer.android.com/reference/kotlin/android/content/Context#getPackageManager(),
+https://developer.android.com/reference/android/content/Intent#CATEGORY_SELECTED_ALTERNATIVE,
+https://stackoverflow.com/a/6758962,
+https://stackoverflow.com/a/76680021
  */
