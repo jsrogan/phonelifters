@@ -5,8 +5,10 @@
     <permission android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="ReservedSystemPermission" />
 
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
     <queries>
-        <package android:name="com.phonelifters.pose_detection" />
+        <package android:name="com.programminghut.pose_detection" />
     </queries>
 
     <application

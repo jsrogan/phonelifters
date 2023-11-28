@@ -198,12 +198,12 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
 //                    action = "com.programminghut.pose_detection"
 //                }
 
-                //Log.d("apps", context.packageManager.getInstalledApplications(0).toString())
+                Log.d("packages", context.packageManager.getInstalledPackages(0).toString())
                 //val poseIntent = Intent("com.phonelifters.pose_detection")
                 //val results = context.packageManager.queryIntentActivities(poseIntent, 0)
                 //poseIntent.component = ComponentName(results[0].activityInfo.packageName, results[0].activityInfo.name)
                 //startActivity(context, poseIntent, null)
-                val poseIntent = context.packageManager.getLaunchIntentForPackage("com.phonelifters.pose_detection")
+                val poseIntent = context.packageManager.getLaunchIntentForPackage("com.programminghut.pose_detection")
 
                 if (poseIntent != null)
                 {
