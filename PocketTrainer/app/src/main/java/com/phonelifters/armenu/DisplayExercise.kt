@@ -275,5 +275,8 @@ https://developer.android.com/reference/kotlin/android/content/Context#getpackag
 https://developer.android.com/reference/kotlin/android/content/Context#getPackageManager(),
 https://developer.android.com/reference/android/content/Intent#CATEGORY_SELECTED_ALTERNATIVE,
 https://stackoverflow.com/a/6758962,
-https://stackoverflow.com/a/76680021
+https://stackoverflow.com/a/76680021,
+https://stackoverflow.com/a/64479595,
+https://developer.android.com/reference/android/content/pm/PackageManager#getInstalledApplications(int),
+https://developer.android.com/reference/android/content/pm/PackageManager#getLaunchIntentForPackage(java.lang.String)
  */
