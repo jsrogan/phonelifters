@@ -28,12 +28,12 @@ class Exercise(name: String, model: String)
 {
     var exerciseName = ""
     var demoModel = ""
-    //var id = 0
+    
     init
     {
         exerciseName = name
         demoModel = model
-        //id = ID
+        
     }
 
     fun getName(): String
@@ -46,12 +46,7 @@ class Exercise(name: String, model: String)
         return demoModel
     }
 
-    /*
-    fun getId(): Int
-    {
-        return id
-    }
-     */
+
 }
 
 class ExerciseMenu(e: Exercise)
@@ -62,18 +57,7 @@ class ExerciseMenu(e: Exercise)
         exercises = exercises.plus(e)
     }
 
-    /*
-    fun getExercise(name: String) : Exercise?
-    {
-        if (exercises.contains(name))
-        {
-            return exercises[name]
-        }
 
-        return Exercise("exercise not found", "", -1)
-        //CHECK
-    }
-     */
 
     @Composable
     fun ShowExercises(index: Int, exerciseList: Array<Exercise>, navController: NavHostController) {
@@ -92,13 +76,13 @@ class ExerciseMenu(e: Exercise)
                     val navString = "DisplayExercise/$currentExercise"
                     IconButton(onClick = { navController.navigate(navString) }) {
                         Icon(imageVector = ImageVector.vectorResource(R.drawable.start_exercise_button),
-                            contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                            contentDescription = stringResource(R.string.exercise_select), 
                             modifier = Modifier.scale(1.4f),
-                            //tint = Color.Green
+                            
                         )
                     }
                 }
-                //Text(exercise.exerciseName, color = lightBlue, fontSize = 30.sp, textAlign = TextAlign.Center)
+                
 
 
             }
