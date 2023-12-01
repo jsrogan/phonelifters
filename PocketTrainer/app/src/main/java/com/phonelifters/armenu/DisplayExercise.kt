@@ -13,7 +13,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
-//import androidx.compose.foundation.layout.RowScopeInstance.align
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -58,7 +57,7 @@ class DisplayExercise : ComponentActivity() {
                         val currentModel = remember {
                             mutableStateOf("")
                         }
-                        //ARScreen(currentModel.value)
+                        
                         Menu(modifier = Modifier.align(Alignment.BottomCenter)){
                             currentModel.value = it
                         }
@@ -78,14 +77,6 @@ fun Menu(modifier: Modifier,onClick:(String)->Unit) {
         mutableStateOf(0)
     }
 
-    /*
-
-    Food("burger",R.drawable.burger),
-        Food("instant",R.drawable.instant),
-        Food("momos",R.drawable.momos),
-        Food("pizza",R.drawable.pizza),
-        Food("ramen",R.drawable.ramen),
-     */
 
     val itemsList = listOf(
         Models("demo", R.drawable.demo)
@@ -154,8 +145,7 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
                         glbFileLocation = "models/${model}.glb",
                         scaleToUnits = 0.8f,
                         autoAnimate = true,
-                        //CHECK
-                        //Rotation needs to be purposeful, not random, research anchor
+                       
                     ){
 
                     }
@@ -181,7 +171,7 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
                 Row(horizontalArrangement = Arrangement.SpaceBetween, modifier= Modifier.fillMaxWidth(1f)) {
                     IconButton(onClick = { navHostController.popBackStack() }) {
                             Icon(imageVector = ImageVector.vectorResource(R.drawable.back_button),
-                                contentDescription = stringResource(R.string.exercise_select), //CHECK change to actual exercise name
+                                contentDescription = stringResource(R.string.exercise_select), 
                                 modifier = Modifier.scale(1.4f),
                             )
                     }
@@ -190,19 +180,8 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
             }
 
             Button(onClick = {
-                //val intent = Intent(context, PoseActivity::class.java)
-                //context.startActivity(intent)
-                //navHostController.navigate("PoseView")
-                //val poseIntent = context.getPackageManager().getLaunchIntentForPackage("com.phonelifters.armenu")
-//                val poseIntent = Intent().apply {
-//                    action = "com.programminghut.pose_detection"
-//                }
 
                 Log.d("packages", context.packageManager.getInstalledPackages(0).toString())
-                //val poseIntent = Intent("com.phonelifters.pose_detection")
-                //val results = context.packageManager.queryIntentActivities(poseIntent, 0)
-                //poseIntent.component = ComponentName(results[0].activityInfo.packageName, results[0].activityInfo.name)
-                //startActivity(context, poseIntent, null)
                 val poseIntent = context.packageManager.getLaunchIntentForPackage("com.programminghut.pose_detection")
 
                 if (poseIntent != null)
@@ -230,29 +209,7 @@ fun ARScreen(model:String?, navHostController: NavHostController, context: Conte
 
 
 data class Models(var name:String,var imageId:Int)
-/*
-class DisplayExercise {
-    ARMenuTheme
-    {
-        // A surface container using the 'background' color from the theme
-        Surface(
-            modifier = Modifier.fillMaxSize(),
-            color = MaterialTheme.colors.background
-        ) {
-            Box(modifier = Modifier.fillMaxSize()) {
-                val currentModel = remember {
-                    mutableStateOf("bigtest")
-                }
-                ARScreen(currentModel.value)
-                Menu(modifier = Modifier.align(Alignment.BottomCenter)) {
-                    currentModel.value = it
-                }
 
-            }
-        }
-    }
-}
- */
 
 /*
 sources: https://stackoverflow.com/a/72898717,
