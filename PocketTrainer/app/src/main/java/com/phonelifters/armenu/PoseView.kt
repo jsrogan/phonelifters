@@ -1,4 +1,4 @@
-//package de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture needed?
+
 package com.phonelifters.armenu
 
 import androidx.compose.foundation.background
@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-//import androidx.compose.foundation.layout.RowScopeInstance.align
+
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -59,8 +59,7 @@ fun PoseView(navHostController: NavHostController) {
                         glbFileLocation = "models/${model}.glb",
                         scaleToUnits = 0.8f,
                         autoAnimate = true,
-                        //CHECK
-                        //Rotation needs to be purposeful, not random, research anchor
+                        
                     ){
 
                     }
@@ -95,8 +94,7 @@ fun PoseView(navHostController: NavHostController) {
             }
 
             Button(onClick = {
-                //val intent = Intent(context, PoseActivity::class.java)
-                //context.startActivity(intent)
+              
                 navHostController.navigate("ExerciseMenu")
             }, modifier = Modifier.align(Alignment.BottomCenter)) {
                 Text(text = "Done")
