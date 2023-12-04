@@ -8,7 +8,7 @@
 
 <img width="845" alt="image" src="https://github.com/jsrogan/phonelifters/assets/44682153/a2685bf4-1144-4958-bff0-ea753c1bbad8">
 
-[video_page]: https://youtu.be/sample
-[wiki_page]: https://github.com/member/team/wiki
-[agile_page]: https://trello.com/b/sample/general
+Video: https://youtu.be/sample
+Wiki: https://github.com/member/team/wiki
+Agile: https://trello.com/b/sample/general
 
