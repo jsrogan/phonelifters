@@ -8,5 +8,5 @@
 
 ![Elevator Pitch](<img width="845" alt="image" src="https://user-images.githubusercontent.com/jsrogan/phonelifters/blob/main/docs/elevator%20pitch.png">)
 [Video]: TBD
-[Wiki]: [https://github.com/jsrogan/phonelifters/wiki](url)
+[Wiki]: [https://github.com/jsrogan/phonelifters/wiki]([url](https://github.com/jsrogan/phonelifters/wiki)https://github.com/jsrogan/phonelifters/wiki)
 
