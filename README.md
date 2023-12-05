@@ -10,4 +10,4 @@
 
 [Video]: TBD
 
-[Wiki]: https://github.com/jsrogan/phonelifters/wiki
+[Wiki](https://github.com/jsrogan/phonelifters/wiki)
