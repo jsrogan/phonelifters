@@ -15,4 +15,4 @@
 
 [wiki_page](https://github.com/jsrogan/phonelifters/wiki)
 
-[agile_page](https://trello.com/b/5bzTgaHF/eecs-441-phonelifters)https://trello.com/b/5bzTgaHF/eecs-441-phoneliftersl
+[agile_page](https://trello.com/b/5bzTgaHF/eecs-441-phonelifters)
