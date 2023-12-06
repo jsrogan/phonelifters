@@ -4,7 +4,7 @@
 
 | Video  |  Wiki |  Trello  |
 |:-----:|:-----:|:--------:|
-|[<img src="https://eecs441.eecs.umich.edu/img/admin/video.png">][video_page]|
+|[<img src="https://eecs441.eecs.umich.edu/img/admin/video.png">]https://youtu.be/t-nSkQf7kH8|
 [<img src="https://eecs441.eecs.umich.edu/img/admin/wiki.png">][wiki_page]|
 [<img src="https://eecs441.eecs.umich.edu/img/admin/trello.png">][agile_page]|
 
