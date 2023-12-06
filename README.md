@@ -1,5 +1,3 @@
-# phonelifters
-
 # UM EECS441§3&4 F23 PhoneLifters
 
 | Video  |  Wiki |  Trello  |
