@@ -3,6 +3,11 @@
 # UM EECS441§3&4 F23 PhoneLifters
 
 | Video  |  Wiki |  Trello  |
+|:-----:|:-----:|:--------:|
+|[<img src="https://eecs441.eecs.umich.edu/img/admin/video.png">][video_page]|
+[<img src="https://eecs441.eecs.umich.edu/img/admin/wiki.png">][wiki_page]|
+[<img src="https://eecs441.eecs.umich.edu/img/admin/trello.png">][agile_page]|
+
 
 | | |https://github.com/jsrogan/phonelifters/wiki| |https://trello.com/b/5bzTgaHF/eecs-441-phonelifters|
 
