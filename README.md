@@ -6,7 +6,7 @@
 
 | | |https://github.com/jsrogan/phonelifters/wiki| |https://trello.com/b/5bzTgaHF/eecs-441-phonelifters|
 
-[![Elevator Pitch](https://user-images.githubusercontent.com/jsrogan/phonelifters/blob/main/docs/elevator%20pitch.png)] (<img width="845" alt="image" src="[(https://github.com/jsrogan/phonelifters/blob/main/Pocket%20Trainer.png?raw=true)](https://github.com/jsrogan/phonelifters/blob/main/Pocket%20Trainer.png?raw=true)">)
+[![Elevator Pitch](https://user-images.githubusercontent.com/jsrogan/phonelifters/blob/main/docs/elevator%20pitch.png)] (<img width="845" alt="image" src="https://github.com/jsrogan/phonelifters/blob/main/Pocket%20Trainer.png?raw=true">)
 
 [Video]: TBD
 
