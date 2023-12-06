@@ -61,5 +61,6 @@ https://github.com/SceneView/sceneview-android,
 https://docs.blender.org/manual/en/latest/scene_layout/object/editing/transform/scale.html,
 https://stackoverflow.com/questions/67577120/conversion-of-dae-to-glb-gltf,
 https://stackoverflow.com/a/54469912,
-https://www.youtube.com/watch?v=rb5m0Py8y1s
+https://www.youtube.com/watch?v=rb5m0Py8y1s,
+https://support.atlassian.com/trello/docs/changing-the-visibility-of-a-board/
  */
