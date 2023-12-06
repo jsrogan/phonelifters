@@ -11,6 +11,6 @@
 
 
 
-[video_page][https://youtu.be/sample](https://youtu.be/t-nSkQf7kH8)
-[wiki_page][https://github.com/member/team/wiki](https://github.com/jsrogan/phonelifters/wiki)
-[agile_page][https://trello.com/b/sample/genera](https://trello.com/b/5bzTgaHF/eecs-441-phonelifters)https://trello.com/b/5bzTgaHF/eecs-441-phoneliftersl
+[video_page](https://youtu.be/t-nSkQf7kH8)
+[wiki_page](https://github.com/jsrogan/phonelifters/wiki)
+[agile_page](https://trello.com/b/5bzTgaHF/eecs-441-phonelifters)https://trello.com/b/5bzTgaHF/eecs-441-phoneliftersl
